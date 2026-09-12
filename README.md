@@ -140,6 +140,8 @@ Finally, we did not build a neural-network controller as a separate contestant, 
 
 ## A side experiment: the connectome as a reservoir for SAT
 
+![The fly opens the door marked P versus NP](paper/figures/sat0-meme.jpg)
+
 Separately, and half in jest, we asked whether the same network can help solve Boolean satisfiability. It cannot — but the experiment produced the cleanest separation between the real wiring and its null models that we have. A linear decoder recovers the task's input bits from one 15 ms tick of descending activity with 95 to 99 per cent accuracy in the real connectome, 68 to 73 per cent in a degree-preserving shuffle, and 64 to 73 per cent in a random topology; a linear layer trained to clone an honest rule reaches 96.5 to 96.9 per cent agreement on the real connectome and exactly the majority-class rate, that is nothing at all, on both surrogates. The first version of the experiment also produced a policy that ignored its input entirely while looking functional, which is worth reading about on its own. Full account: [`docs/sat-experiment.md`](docs/sat-experiment.md) and [`paper/sat-en.pdf`](paper/sat-en.pdf).
 
 ---
