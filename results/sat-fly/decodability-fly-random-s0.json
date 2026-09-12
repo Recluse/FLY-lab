@@ -1,0 +1,61 @@
+{
+ "fly-random": {
+  "n_samples": 797,
+  "feature_dim": 1299,
+  "mean_feature_norm": 0.1,
+  "nonzero_feature_fraction": 0.0003,
+  "wiring": {
+   "materialization": 783,
+   "shuffle_seed": null,
+   "random_seed": 4000,
+   "channels": "head bristle left[:k], right[:k], left[k:2k], right[k:2k]=constant on",
+   "neurons_per_channel": 40,
+   "readout_population": "all annotated descending neurons present in model",
+   "n_readout": 1299,
+   "tick_ms": 15
+  },
+  "decoding": {
+   "current": {
+    "value": {
+     "test_accuracy": 0.688,
+     "majority_class_rate": 0.504,
+     "n_test": 240,
+     "positive_rate": 0.504
+    },
+    "pos_in_unsat": {
+     "test_accuracy": 0.733,
+     "majority_class_rate": 0.558,
+     "n_test": 240,
+     "positive_rate": 0.442
+    },
+    "neg_in_unsat": {
+     "test_accuracy": 0.642,
+     "majority_class_rate": 0.542,
+     "n_test": 240,
+     "positive_rate": 0.458
+    }
+   },
+   "previous": {
+    "value": {
+     "test_accuracy": 0.664,
+     "majority_class_rate": 0.507,
+     "n_test": 223,
+     "positive_rate": 0.493
+    },
+    "pos_in_unsat": {
+     "test_accuracy": 0.632,
+     "majority_class_rate": 0.552,
+     "n_test": 223,
+     "positive_rate": 0.448
+    },
+    "neg_in_unsat": {
+     "test_accuracy": 0.65,
+     "majority_class_rate": 0.556,
+     "n_test": 223,
+     "positive_rate": 0.444
+    }
+   }
+  },
+  "collect_wall_s": 398.5
+ }
+}

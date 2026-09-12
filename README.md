@@ -136,7 +136,11 @@ Stopping remains blocked for the brain variants: we have no validated neural out
 
 In the present scenarios the brain pass is computed separately from the body. For external stimuli that do not depend on movement this is strictly equivalent to interleaving — we verified it, and the agreement is bit-exact. Scenarios with contact feedback will require a genuine joint loop.
 
-Finally, we did not build a neural-network controller as a separate contestant, did not implement feeding or grooming, and did not enable vision. All of this is recorded in the protocol as a second stage. A separate side experiment, using the connectome as a fixed reservoir for Boolean satisfiability, will be published here later.
+Finally, we did not build a neural-network controller as a separate contestant, did not implement feeding or grooming, and did not enable vision. All of this is recorded in the protocol as a second stage.
+
+## A side experiment: the connectome as a reservoir for SAT
+
+Separately, and half in jest, we asked whether the same network can help solve Boolean satisfiability. It cannot — but the experiment produced the cleanest separation between the real wiring and its null models that we have. A linear decoder recovers the task's input bits from one 15 ms tick of descending activity with 95 to 99 per cent accuracy in the real connectome, 68 to 73 per cent in a degree-preserving shuffle, and 64 to 73 per cent in a random topology; a linear layer trained to clone an honest rule reaches 96.5 to 96.9 per cent agreement on the real connectome and exactly the majority-class rate, that is nothing at all, on both surrogates. The first version of the experiment also produced a policy that ignored its input entirely while looking functional, which is worth reading about on its own. Full account: [`docs/sat-experiment.md`](docs/sat-experiment.md) and [`paper/sat-en.pdf`](paper/sat-en.pdf).
 
 ---
 
@@ -308,6 +312,7 @@ Every episode directory also holds the exact event file it ran on, so any compar
 - [`docs/sensory-screen.md`](docs/sensory-screen.md) — the search for a usable input, the avalanche, and the pulse measurements.
 - [`docs/neuron-ids.md`](docs/neuron-ids.md) — neuron identifiers, their sources, and the version discrepancies we found.
 - [`docs/reproducing.md`](docs/reproducing.md) — a condensed command reference.
+- [`docs/sat-experiment.md`](docs/sat-experiment.md) — the side experiment using the connectome as a reservoir for Boolean satisfiability.
 
 ## How this was made
 

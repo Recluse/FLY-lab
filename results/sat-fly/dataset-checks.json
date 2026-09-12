@@ -1,0 +1,47 @@
+{
+ "set_sizes": {
+  "train": 160,
+  "test-in": 160,
+  "test-out": 120
+ },
+ "overlap_by_canonical_form": {
+  "train_vs_test_in": 0,
+  "train_vs_test_out": 0,
+  "test_in_vs_test_out": 0
+ },
+ "duplicates_within_set": {
+  "train": 0,
+  "test-in": 0,
+  "test-out": 0
+ },
+ "clause_positive_literal_fraction": {
+  "train": 0.489,
+  "test-in": 0.498,
+  "test-out": 0.497
+ },
+ "P_var_i_true_over_all_satisfying_assignments": {
+  "test-in": [
+   0.497,
+   0.49,
+   0.479,
+   0.492,
+   0.513,
+   0.499
+  ],
+  "test-out": [
+   0.472,
+   0.488,
+   0.545,
+   0.527,
+   0.516,
+   0.43,
+   0.465,
+   0.542,
+   0.477,
+   0.495,
+   0.394,
+   0.457
+  ]
+ },
+ "note": "the agent never sees variable indices (one variable per decision, order reshuffled each sweep), so positional structure could not be exploited even if present"
+}

@@ -1,0 +1,11 @@
+{
+ "note": "log-log slope of median decisions to solution against n, over solved instances only; success rate falls with n, so this is a description of the solved subset and NOT a complexity measurement",
+ "slopes": {
+  "heuristic": 1.83,
+  "linear-raw-clone": 2.21,
+  "fly-clone": 2.06,
+  "fly-shuffled-clone": 2.12,
+  "fly-random-clone": 2.07,
+  "random": 1.54
+ }
+}

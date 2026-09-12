@@ -18,5 +18,6 @@ results/**/*.npz
 results/*.log
 results/**/*.log
 results/*/manifest.json
-results/sat-fly/
+results/sat-fly/*.log
+results/sat-fly/*.png
 paper/*.tmp*
