@@ -3,7 +3,7 @@ title: "FLY-lab: what a fly connectome adds to controlling a body"
 message: "If you use these results, please cite this repository."
 type: dataset
 authors:
-  - name: "FLY-lab contributors"
+  - alias: "Recluse"
 date-released: 2026-09-12
 license: CC-BY-4.0
 repository-code: "https://github.com/Recluse/FLY-lab"

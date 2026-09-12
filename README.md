@@ -309,6 +309,16 @@ Every episode directory also holds the exact event file it ran on, so any compar
 - [`docs/neuron-ids.md`](docs/neuron-ids.md) — neuron identifiers, their sources, and the version discrepancies we found.
 - [`docs/reproducing.md`](docs/reproducing.md) — a condensed command reference.
 
+## How this was made
+
+The questions, the framing and every decision about what counts as evidence are the work of one person, Recluse, who also insisted on the discipline that shaped the result: separate the calibration data from the test data, write the criteria down before looking at the outcomes, and treat a plausible-looking response as a hypothesis until it survives a control.
+
+The construction was done with two AI assistants over several sessions. The first assembly — the two isolated environments, the body harness, the A/B pilot and the initial documentation — was written with OpenAI Codex. The work reported here — the search for a usable sensory input, the wiring of the brain into the loop, variants C, D and E, the statistics, the figures and the text of this report — was written with Anthropic's Claude. Both assistants wrote code and prose; neither was allowed to choose a criterion after seeing a result.
+
+We name them because it is honest and because it is relevant to how the reader should treat this document, not as a credit. Language models are not authors: an author has to be answerable for the work, and a model cannot be. What a model can do is make a mistake that reads well, which is exactly the failure mode this project kept running into. Two of them are described in the report — the stop-window arithmetic that quietly shortened the measurement interval, and the network avalanche that looked like a working sensory pathway for a whole round of the experiment. Both were caught by controls rather than by reading the code.
+
+That is the practical reason every number here is traceable to a file. Do not take the prose on trust: the measurements are in `results/`, the criteria are in `docs/protocol.md` with the date at which each was fixed, and the commands that produce them are above.
+
 ## Licence
 
 Code is MIT ([`LICENSE`](LICENSE)). Data, figures and text are CC BY 4.0 ([`LICENSE-DATA`](LICENSE-DATA)). Third-party components — the brain model, the body model and the FlyWire annotations — keep their own licences and are not redistributed here.
