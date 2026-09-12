@@ -1,0 +1,10 @@
+.venv-brain/bin/python brain_loop.py --label c-brain-cal-v1-none-1000 --scenario none --seed 1000 > results/c-brain-cal-v1-none-1000.log 2>&1
+.venv-brain/bin/python brain_loop.py --label c-brain-cal-v1-none-1001 --scenario none --seed 1001 > results/c-brain-cal-v1-none-1001.log 2>&1
+.venv-brain/bin/python brain_loop.py --label c-brain-cal-v1-none-1002 --scenario none --seed 1002 > results/c-brain-cal-v1-none-1002.log 2>&1
+.venv-brain/bin/python brain_loop.py --label c-brain-cal-v1-none-1003 --scenario none --seed 1003 > results/c-brain-cal-v1-none-1003.log 2>&1
+.venv-brain/bin/python brain_loop.py --label c-brain-cal-v1-none-1004 --scenario none --seed 1004 > results/c-brain-cal-v1-none-1004.log 2>&1
+.venv-brain/bin/python brain_loop.py --label c-brain-cal-v1-none-1005 --scenario none --seed 1005 > results/c-brain-cal-v1-none-1005.log 2>&1
+.venv-brain/bin/python brain_loop.py --label c-brain-cal-v1-none-1006 --scenario none --seed 1006 > results/c-brain-cal-v1-none-1006.log 2>&1
+.venv-brain/bin/python brain_loop.py --label c-brain-cal-v1-none-1007 --scenario none --seed 1007 > results/c-brain-cal-v1-none-1007.log 2>&1
+.venv-brain/bin/python brain_loop.py --label c-brain-cal-v1-none-1008 --scenario none --seed 1008 > results/c-brain-cal-v1-none-1008.log 2>&1
+.venv-brain/bin/python brain_loop.py --label c-brain-cal-v1-none-1009 --scenario none --seed 1009 > results/c-brain-cal-v1-none-1009.log 2>&1

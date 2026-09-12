@@ -1,0 +1,53 @@
+{
+  "none": {
+    "C_successes": 30,
+    "D_successes": 0,
+    "denominator_each": 30,
+    "invalid_episodes": 0,
+    "valid_pairs": 30,
+    "difference_D_minus_C": -1.0,
+    "paired_episode_bootstrap_95": [
+      -1.0,
+      -1.0
+    ],
+    "paired_exact_conservative_95": [
+      -1.0,
+      -0.7281986548485427
+    ],
+    "inference_note": "invalid episodes block inference; degenerate bootstrap at boundary does not prove population equivalence"
+  },
+  "left": {
+    "C_successes": 30,
+    "D_successes": 0,
+    "denominator_each": 30,
+    "invalid_episodes": 0,
+    "valid_pairs": 30,
+    "difference_D_minus_C": -1.0,
+    "paired_episode_bootstrap_95": [
+      -1.0,
+      -1.0
+    ],
+    "paired_exact_conservative_95": [
+      -1.0,
+      -0.7281986548485427
+    ],
+    "inference_note": "invalid episodes block inference; degenerate bootstrap at boundary does not prove population equivalence"
+  },
+  "right": {
+    "C_successes": 30,
+    "D_successes": 0,
+    "denominator_each": 30,
+    "invalid_episodes": 0,
+    "valid_pairs": 30,
+    "difference_D_minus_C": -1.0,
+    "paired_episode_bootstrap_95": [
+      -1.0,
+      -1.0
+    ],
+    "paired_exact_conservative_95": [
+      -1.0,
+      -0.7281986548485427
+    ],
+    "inference_note": "invalid episodes block inference; degenerate bootstrap at boundary does not prove population equivalence"
+  }
+}

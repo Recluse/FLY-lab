@@ -1,0 +1,11 @@
+{
+  "status": "admitted for none/left/right turning tasks; stop remains blocked for brain variants",
+  "basis": [
+    "screen783: head bristle -> lateralized descending response without avalanche",
+    "c-brain-cal-v1 + c-cal-v1: readout fixed on calibration seeds, 30/30",
+    "c-brain-smoke2 vs smoke3: segmented brain pass bitwise equals per-tick stepping"
+  ],
+  "wiring": "docs/protocol.md section 'Подключение мозга C/D/E'",
+  "readout": "results/c-brain-cal-v1-readout.json",
+  "not_a_result": "admission is a wiring check, not a behavioural conclusion; stop/speed readout is unvalidated"
+}

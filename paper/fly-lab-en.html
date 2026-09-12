@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>What a fly connectome adds to controlling a body</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>What a fly connectome adds to controlling a body</h1>
+<p class="subtitle">A reproducible experiment on the NeuroMechFly model and the complete wiring map of the <i>Drosophila</i> brain</p>
+
+<p class="meta">FLY-lab · 11–12 September 2026 · all measurements on a single machine (Apple M5, 10 cores, 32 GB)<br>
+1,464 body episodes and 724 brain passes; sources, data and re-run commands are attached</p>
+
+<div class="abstract">
+<p><b>In brief.</b> We took a physics model of a fly with a real six-legged body, and the complete wiring map of the <i>Drosophila</i> brain — 138,639 neurons and 15 million connections reconstructed from electron microscopy. We harnessed them together and asked a narrow question: what exactly does the brain contribute, when the body and the low-level walking controller are identical across all variants?</p>
+<p>The answer came in three parts. A convincing gait owes the brain nothing: the stock motor controller produces it. The network's live response to the current situation is necessary — replace the brain's output with a recording from a different episode and behaviour collapses completely. The structure of the connections matters too: five networks in which we reshuffled the wiring while preserving every vertex degree and every weight lose the ability to tell which side was touched. Yet on our tasks the connectome showed no advantage whatsoever over a controller two lines long — both solve them perfectly.</p>
+</div>
+
+<h2>Why bother</h2>
+
+<p class="first">In the autumn of 2026 it became fashionable again to say that a fruit fly's brain has been “uploaded” into a computer and is now driving a virtual body. The videos are persuasive: the fly steps briskly, turns, stops. The trouble is that a video cannot tell you who is actually doing the driving.</p>
+
+<p>Any such assembly contains two independent mechanisms. The first is the low-level walking controller: a set of coupled oscillators and reflexes that knows how to place six legs in the right order, catch its balance and keep the fly upright. It was written by people, tuned on real gait recordings, and works entirely on its own, with no brain attached. The second is the connectome network proper, which is supposed to decide <i>where</i> and <i>when</i> to go. The beauty of the gait in a video is almost entirely the achievement of the first. Establishing what the second adds takes a separate and rather tedious experiment.</p>
+
+<p>We ran that experiment. One caveat up front: this is a test of our own implementation of a similar architecture, not a reproduction of anyone's particular system. We had no access to their source code, parameters or hand-made neuron mappings, and negative results here cannot be transferred to other people's builds.</p>
+
+<p>We split the vague question “does the fly brain work” into three sharp ones:</p>
+
+<ul>
+<li><b>Can the body walk convincingly with no connectome at all?</b></li>
+<li><b>Is the network's ongoing activity needed to choose actions?</b> That is, does it matter that the network responds to what is happening right now — or would any signal of a similar shape do?</li>
+<li><b>Does the biological structure of the connections confer an advantage?</b> Or would a random network of the same size, and a simple rule, do just as well?</li>
+</ul>
+
+<h2>What it is built from</h2>
+
+<p class="first">The body is NeuroMechFly, a detailed physical model of <i>Drosophila</i>: segmented legs, joints with realistic limits, tarsal contact with the ground, adhesive footpads. We used it through the FlyGym library version 1.3.2 (the older interface, for which detailed controller examples exist) and did not change a single line of the walking controller itself. The physics timestep is 0.1 ms.</p>
+
+<p>The brain is the model of Philip Shiu and colleagues: each neuron is described by a simple leaky integrate-and-fire equation, and the connections between neurons come from the FlyWire map, data version 783. That is 138,639 neurons and 15,091,983 directed connections, totalling 54 million synapses. We verified the whole table: the correspondence between indices and identifiers, and the finiteness and correctness of every weight.</p>
+
+<p>We first satisfied ourselves that both halves work on their own. The library's own turning test passed without complaint. We reproduced the brain model on the authors' original example: sugar taste delivered to sensory neurons, thirty repetitions, response of the proboscis motor neuron averaging 82.9 Hz. One further check turned out to matter for everything that followed: we ran the network once continuously for 1,005 milliseconds and once as 67 segments of 15 milliseconds, and confirmed that spikes, potentials and synaptic states matched bit for bit. This means the network can be halted every 15 ms, asked for its opinion, and resumed, without breaking anything.</p>
+
+<h2>How the experiment is arranged</h2>
+
+<figure>
+  <img src="figures/fig1-architecture-en.png" alt="Architecture diagram">
+  <figcaption><b>Figure 1.</b> Every variant uses the same chain. Sensors, command adapter, walking controller, body and reset rules are identical throughout; exactly one block changes — the one that chooses the action. Inside the brain variant, sensory bits switch the excitation of the input neurons on, the network advances by 15 milliseconds, and the turn command is computed from the fresh spikes of the descending neurons.</figcaption>
+</figure>
+
+<p class="first">A fair comparison is possible only when exactly one detail differs between variants. So we built a shared chain: two local sensory channels → swappable action-selection module → shared command adapter → stock walking controller → body. The adapter takes two dimensionless quantities, speed and turn, and converts them into two descending drives for the controller. The command is refreshed every 15 milliseconds, during which the physics engine takes 150 steps. Vision is disabled in all variants, and the body is created afresh for every episode.</p>
+
+<p>There are five swappable modules:</p>
+
+<ul>
+<li><b>A — constant command.</b> Walk forward, never turn. Shows how much of the persuasiveness comes from the walking controller alone.</li>
+<li><b>B — simple rule.</b> Two lines: if the left sensor fires, turn left; if the right one fires, turn right. No memory.</li>
+<li><b>C — connectome.</b> The sensory channels drive excitation of real fly sensory neurons, the network computes, and the command is read out of descending-neuron activity.</li>
+<li><b>D — feedback broken.</b> The same network, but its output is replaced by a recording from a different episode with different events. The temporal structure is preserved; the link to the current situation is severed.</li>
+<li><b>E — shuffled connectome.</b> Five networks whose connections have been permuted at random while preserving every vertex degree and every weight.</li>
+</ul>
+
+<p>The tasks are deliberately short and simple. An episode lasts one second; at a moment unpredictable to the controller, between 180 and 300 milliseconds, a stimulus appears — on the left, on the right, or nowhere. Success for a turn means a heading change greater than 0.2 radians in the correct direction within half a second of onset; success for the background condition means no false command. Stopping was tested separately with a three-second horizon.</p>
+
+<p>All parameters, thresholds and success criteria were written down before we looked at any test outcome. Calibration seeds (1000–1009) and test seeds (2000–2029) were separated in advance; events are produced by their own random number generator, so variants cannot shift them by consuming randomness differently. That the event files match within each compared pair is verified by checksum.</p>
+
+<h2>What the body can do without a brain</h2>
+
+<p class="first">A great deal. The constant “walk straight” command produces a stable gait: the fly covers 13.4 mm in a second and never flips. A prescribed turn works in both directions: an asymmetric command yields a heading change of 2.9 radians to the left or 2.6 to the right in the same second. A zero command drops the speed from 15 mm/s to almost nothing.</p>
+
+<p>In other words, everything that impresses in a video — the rhythmic stepping, the stability, the smooth turns — is available without a single neuron from the connectome. This is no criticism of either the model or the connectome: it is by design, and in insects walking really is governed largely by rhythm generators in the ventral nerve cord rather than by the brain. But it does mean that the brain's contribution cannot be judged from how good the gait looks.</p>
+
+<p>Rule B was flawless on the same turning tasks: 30 successes out of 30 in each direction, against zero for the constant command. Strict stopping, however — holding the speed below 1 mm/s for 150 milliseconds — it managed only 13 times out of 30. Choosing the “stop” command correctly and physically braking a six-legged body are different achievements.</p>
+
+<div class="nb">
+<p><b>On one error we caught.</b> The first version of the stopping criterion required ten consecutive samples 15 ms apart, which in fact spans 135 milliseconds rather than 150. We found the mistake in the calibration data before looking at the test outcomes, corrected it to eleven samples and re-evaluated; the rule's calibration success fell from 9 out of 10 to 4 out of 10. We mention it here because arithmetic of this kind is the commonest way to obtain the result one was hoping for without noticing.</p>
+</div>
+
+<h2>Finding where to plug the brain in</h2>
+
+<p class="first">The hardest part of the experiment is not running the network but honestly locating its input and its output. One must not stimulate the output neurons with a “turn left” command computed by one's own code: then the code makes the decision and the brain is left to forward the memo ceremonially.</p>
+
+<p>The obvious first attempt was to take the sugar receptors, as in the original example, and read the steering neurons DNa01 and DNa02, which the literature describes as involved in heading control. It failed, and instructively so. The left set of sugar receptors evoked a response in the proboscis motor neuron but not a single spike in the steering neurons. The right set did produce spikes — and we very nearly accepted that as a working pathway.</p>
+
+<p>A thorough check saved us. We ran seventeen receptor classes on both sides and discovered a general property of the model: given enough excitation, the network collapses into one and the same state — some 8,400 active neurons, half a million spikes per second — regardless of which sense organ we stimulated. Three input neurons suffice. The “response” of the right-hand sugar receptors was exactly such an avalanche rather than a taste-to-turn pathway; the asymmetry within the avalanche belongs to the network, not to the stimulus.</p>
+
+<figure>
+  <img src="figures/fig5-screen-en.png" alt="Sensory screen">
+  <figcaption><b>Figure 2.</b> Response of the DNa02 steering neurons to stimulation of different receptor classes. Red bars mark runs in which the network went into an avalanche: the magnitude there means nothing. The only input with a mirrored, avalanche-free response is the mechanosensory head bristles: stimulating the left side drives the left DNa02 to 17 Hz with the right at zero, and stimulating the right side drives the right one to 12 Hz with the left at zero.</figcaption>
+</figure>
+
+<p>That is how we found the working input: the bristles on the fly's head, 150 cells on the left and 155 on the right. Biologically this makes sense — a touch to the head bristles is naturally associated with avoidance and turning, and DNa02 is described in the literature as steering the fly towards its own side. We used that correspondence as a hint about where to look, but verified it with our own measurements rather than with a citation.</p>
+
+<p>It also turned out that individual DNa02 neurons fire too rarely to be useful: two to four spikes over 300 milliseconds of stimulation, which means almost always zero within a 15 ms tick. So we built the readout on the whole descending population: 645 neurons on the left and 646 on the right. The difference in their spike counts per tick proved a fast and reliable indicator of side — the first spike appears four milliseconds after onset, and the sign of the difference never once confused the sides.</p>
+
+<figure>
+  <img src="figures/fig3-descending-en.png" alt="Descending spike difference">
+  <figcaption><b>Figure 3.</b> The signal the readout sees. In the real network the difference between the left and right descending populations follows the stimulated side confidently: about +28 spikes per tick for a left stimulus and about −20 for a right one. In the rewired network (dotted) only a few spikes of that signal survive, and the sign stops depending on the input.</figcaption>
+</figure>
+
+<p>The readout rule itself — a running average of the difference, a threshold and a scale — was chosen by a small grid search on calibration seeds only. The criterion was per-tick agreement with the decisions of simple rule B; eight of thirty-two combinations agreed perfectly, and we took the simplest of them. After that the parameters were never touched again.</p>
+
+<h2>Results</h2>
+
+<figure>
+  <img src="figures/fig2-results-en.png" alt="Results A-E">
+  <figcaption><b>Figure 4.</b> Fraction of thirty episodes solved by each variant. All variants run on identical events, paired, with event files verified by checksum. No episode was excluded because of a computational failure.</figcaption>
+</figure>
+
+<table>
+<thead><tr><th>Task</th><th>A: command</th><th>B: rule</th><th>C: connectome</th><th>D: replay</th><th>E: shuffled</th></tr></thead>
+<tbody>
+<tr><td>No stimulus: no false command</td><td class="num">30/30</td><td class="num">30/30</td><td class="num">30/30</td><td class="num">0/30</td><td class="num">30/30</td></tr>
+<tr><td>Stimulus left: turn left</td><td class="num">0/30</td><td class="num">30/30</td><td class="num">30/30</td><td class="num">0/30</td><td class="num">0–30</td></tr>
+<tr><td>Stimulus right: turn right</td><td class="num">0/30</td><td class="num">30/30</td><td class="num">30/30</td><td class="num">0/30</td><td class="num">0/30</td></tr>
+</tbody>
+</table>
+<p class="tcap">For E the range across the five shuffled networks is given, after the permitted readout recalibration. The C − B difference is zero in all three tasks with a conservative confidence interval of ±13.6 percentage points; this is not proof of equivalence, since the interval is wider than the 5-point margin declared in advance.</p>
+
+<h3>The connectome solves the tasks exactly as well as a two-line rule</h3>
+
+<p class="first">The connected brain handled both sides perfectly: 30 out of 30 to the left, 30 out of 30 to the right, and no false command without a stimulus. The reaction begins in the very tick the stimulus switches on, and the heading change over half a second ranges from 1.15 to 1.52 radians.</p>
+
+<p>Rule B gives precisely the same result. This is an honest zero difference, not a victory for the connectome. The reason is transparent: the task is too easy. When the correct answer is “turn towards whatever is happening”, one bit of information suffices, and any mechanism that delivers that bit will score a hundred per cent. On such a task the difference between a sophisticated and a trivial solver is not measurable in principle.</p>
+
+<figure>
+  <img src="figures/fig6-trajectories-en.png" alt="Trajectories">
+  <figcaption><b>Figure 5.</b> Body trajectories on two specific events. The connectome's line lies almost exactly on top of the simple rule's line — that overlap is the main result of the core experiment.</figcaption>
+</figure>
+
+<h3>The network's live response is necessary</h3>
+
+<p class="first">Variant D answers the second question unambiguously. We took the network's output from a different episode of the same seed — a signal with the same statistics, the same temporal structure and the same characteristic rates, but generated by different events — and passed it through the very same readout. Not one of ninety episodes succeeded. With no stimulus the recording produces false turns; with a stimulus on either side the fly turns the wrong way or does not turn at all.</p>
+
+<p>This means that variant C's success rests on the network responding to the current situation, not on its output having a convenient shape. The caveat is obligatory: the claim concerns our assembly and our way of wiring it, not the biology of the fly.</p>
+
+<h3>The structure of the connections matters</h3>
+
+<p class="first">Variant E answers the third question. We built five networks in which all fifteen million connections were re-drawn, under strict constraints: each neuron keeps its number of incoming and outgoing connections separately for excitatory and inhibitory synapses, the entire multiset of weights is preserved, and there are no self-loops or duplicates. A hundred per cent of the “from → to” pairs changed. The input and output neurons are the same ones.</p>
+
+<p>The shuffled networks are neither silent nor saturated: they answer a stimulus with thirty thousand spikes against the original's forty thousand. But almost nothing reaches the descending neurons — instead of 74–122 spikes per tick there remain between 0.4 and 6.6 — and the difference between the left and right populations falls from twenty or thirty spikes to one or two, with its sign no longer depending on which side was stimulated.</p>
+
+<p>In behaviour this looks as follows. With no stimulus all five networks behave impeccably (they have nothing to err with, being silent); with a stimulus on the right all five fail completely; with a stimulus on the left three networks of five accumulate successes. Inspection shows these are not responses: those networks carry a weak constant leftward bias that pushes the fly the same way whatever the stimulated side; on the left that happens to satisfy the criterion, on the right it plainly does not. The permitted recalibration of the readout adds successes on the left, but it cannot create a dependence of sign on the side of the input.</p>
+
+<p>In summary, the “shuffled minus original” difference is −69 percentage points with the original readout and −47 after recalibration for a left stimulus, and −100 points for a right stimulus. A hierarchical bootstrap that resamples networks first and episodes within networks second gives intervals that do not cross zero.</p>
+
+<figure>
+  <img src="figures/fig4-frames-en.png" alt="Video frames">
+  <figcaption><b>Figure 6.</b> Frames from the control videos of variant C on pre-declared test seeds. The trajectories in the videos match those of the measurement runs byte for byte, so recording changed nothing. The primary measurements were made without video.</figcaption>
+</figure>
+
+<h2>What follows, and what does not</h2>
+
+<p class="first">Three questions received three different answers, and they must not be conflated.</p>
+
+<p>The body walks, turns and brakes without a connectome. That is a property of the motor controller, not evidence that a brain is unnecessary: in a living fly it does not set the step rhythm either.</p>
+
+<p>The network's ongoing activity is necessary for action selection in our assembly — substituting a recording from another episode destroys the result entirely. That is an answer about feedback, not about the model's biological fidelity.</p>
+
+<p>The structure of the connections matters for this wiring: a shuffle that preserves every degree and every weight breaks the transmission of the signal to the descending neurons. It does <i>not</i> follow that the original network performs a sophisticated computation. The task on which we showed this is linearly simple: the side of the input determines the side of the output. We demonstrated the survival of a lateralised pathway in the real topology and its absence in the shuffled one — no more than that.</p>
+
+<p>And the principal negative result: <b>on these tasks the connectome showed no advantage over a two-line controller.</b> Both score thirty out of thirty. The five-percentage-point margin of practical equivalence we declared in advance is unreachable with thirty seeds — the interval comes out wider — so equivalence cannot be claimed as proven either. The task is simply too easy to separate the contestants.</p>
+
+<h2>What we did not do</h2>
+
+<p class="first">The list of what remains open is worth giving in full, because it is what bounds the conclusions.</p>
+
+<p>The scenarios stayed the simplest possible: short episodes with a stimulus that switches on and never off. We did not test stimulus disappearance, changes in intensity and duration, conflict between inputs, noise and dropouts, navigation towards a target, new starting positions, uneven terrain or perturbations. Those are exactly the conditions under which a simple rule and a connectome might part ways, and they are the obvious continuation.</p>
+
+<p>Stopping remains blocked for the brain variants: we have no validated neural output corresponding to speed. The sugar input to the proboscis motor neuron remains a hypothesis, and declaring it a “stop neuron” for the sake of a tidier table would have been fitting the result.</p>
+
+<p>In the present scenarios the brain pass is computed separately from the body. For external stimuli that do not depend on movement this is strictly equivalent to interleaving — we verified it, and the agreement is bit-exact. Scenarios with contact feedback will require a genuine joint loop.</p>
+
+<p>Finally, we did not build a neural-network controller as a separate contestant, did not implement feeding or grooming, and did not enable vision. All of this is recorded in the protocol as a second stage.</p>
+
+<h2>How to repeat this</h2>
+
+<p class="first">Everything lives in the <code>results/</code> directory: configurations, versions of every package, checksums of the source tables, identifiers of the neurons used, per-episode trajectories, logs, summaries and re-run commands. Every run carries a unique name and never overwrites anyone else's data. The exact versions of the source repositories are pinned by commit hash: the brain model at <code>91bdd1e7</code>, the body at <code>d285260a</code>, the official neuron annotations at <code>8587524c</code>.</p>
+
+<p>Total compute: 1,464 body episodes (21.3 hours of processor time) and 724 brain passes (4.1 hours). Everything ran on the CPU; no GPU was used.</p>
+
+<p class="small">One point is easily lost in retelling, so we state it again: this is an experiment on our own assembly. It tests neither consciousness nor “brain uploading” nor anyone else's results, and the failure of our wiring is not a negative result about the biological connectome.</p>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "shuffle_seed": 4001,
+  "source_sha256": "efeb23fb99098e9c390f6869969b2a121a2ee92c833cfc45ecb2c1d8e1af0347",
+  "edges": 15091983,
+  "fraction_edges_changed": 0.9999753511516677,
+  "preserved_exactly": [
+    "out-degree per node per sign",
+    "in-degree per node per sign",
+    "global weight multiset (weight stays with its presynaptic edge)",
+    "no self-loops",
+    "no duplicate pairs"
+  ],
+  "preserved_approximately": [
+    "per-node incoming weight distribution"
+  ],
+  "swap_rounds": 10
+}

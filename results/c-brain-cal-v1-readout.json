@@ -1,0 +1,222 @@
+{
+  "brain_tag": "c-brain-cal-v1",
+  "rule": "max per-tick agreement with rule B on calibration seeds; ties: ema, deadband, gain ascending",
+  "grid": {
+    "gain": [
+      0.2,
+      0.1,
+      0.05,
+      0.025
+    ],
+    "deadband": [
+      0,
+      3,
+      6,
+      10
+    ],
+    "ema": [
+      0.0,
+      0.5
+    ]
+  },
+  "scores": [
+    {
+      "gain": 0.2,
+      "deadband": 0,
+      "ema": 0.0,
+      "agreement": 1.0
+    },
+    {
+      "gain": 0.2,
+      "deadband": 0,
+      "ema": 0.5,
+      "agreement": 1.0
+    },
+    {
+      "gain": 0.2,
+      "deadband": 3,
+      "ema": 0.0,
+      "agreement": 1.0
+    },
+    {
+      "gain": 0.2,
+      "deadband": 3,
+      "ema": 0.5,
+      "agreement": 1.0
+    },
+    {
+      "gain": 0.2,
+      "deadband": 6,
+      "ema": 0.0,
+      "agreement": 1.0
+    },
+    {
+      "gain": 0.2,
+      "deadband": 6,
+      "ema": 0.5,
+      "agreement": 0.9970149253731343
+    },
+    {
+      "gain": 0.2,
+      "deadband": 10,
+      "ema": 0.0,
+      "agreement": 0.9970149253731343
+    },
+    {
+      "gain": 0.2,
+      "deadband": 10,
+      "ema": 0.5,
+      "agreement": 0.9935323383084577
+    },
+    {
+      "gain": 0.1,
+      "deadband": 0,
+      "ema": 0.0,
+      "agreement": 1.0
+    },
+    {
+      "gain": 0.1,
+      "deadband": 0,
+      "ema": 0.5,
+      "agreement": 0.9990049751243781
+    },
+    {
+      "gain": 0.1,
+      "deadband": 3,
+      "ema": 0.0,
+      "agreement": 1.0
+    },
+    {
+      "gain": 0.1,
+      "deadband": 3,
+      "ema": 0.5,
+      "agreement": 0.9990049751243781
+    },
+    {
+      "gain": 0.1,
+      "deadband": 6,
+      "ema": 0.0,
+      "agreement": 1.0
+    },
+    {
+      "gain": 0.1,
+      "deadband": 6,
+      "ema": 0.5,
+      "agreement": 0.9970149253731343
+    },
+    {
+      "gain": 0.1,
+      "deadband": 10,
+      "ema": 0.0,
+      "agreement": 0.9970149253731343
+    },
+    {
+      "gain": 0.1,
+      "deadband": 10,
+      "ema": 0.5,
+      "agreement": 0.9935323383084577
+    },
+    {
+      "gain": 0.05,
+      "deadband": 0,
+      "ema": 0.0,
+      "agreement": 0.9970149253731343
+    },
+    {
+      "gain": 0.05,
+      "deadband": 0,
+      "ema": 0.5,
+      "agreement": 0.9935323383084577
+    },
+    {
+      "gain": 0.05,
+      "deadband": 3,
+      "ema": 0.0,
+      "agreement": 0.9970149253731343
+    },
+    {
+      "gain": 0.05,
+      "deadband": 3,
+      "ema": 0.5,
+      "agreement": 0.9935323383084577
+    },
+    {
+      "gain": 0.05,
+      "deadband": 6,
+      "ema": 0.0,
+      "agreement": 0.9970149253731343
+    },
+    {
+      "gain": 0.05,
+      "deadband": 6,
+      "ema": 0.5,
+      "agreement": 0.9935323383084577
+    },
+    {
+      "gain": 0.05,
+      "deadband": 10,
+      "ema": 0.0,
+      "agreement": 0.9970149253731343
+    },
+    {
+      "gain": 0.05,
+      "deadband": 10,
+      "ema": 0.5,
+      "agreement": 0.9935323383084577
+    },
+    {
+      "gain": 0.025,
+      "deadband": 0,
+      "ema": 0.0,
+      "agreement": 0.8776119402985074
+    },
+    {
+      "gain": 0.025,
+      "deadband": 0,
+      "ema": 0.5,
+      "agreement": 0.863681592039801
+    },
+    {
+      "gain": 0.025,
+      "deadband": 3,
+      "ema": 0.0,
+      "agreement": 0.8776119402985074
+    },
+    {
+      "gain": 0.025,
+      "deadband": 3,
+      "ema": 0.5,
+      "agreement": 0.863681592039801
+    },
+    {
+      "gain": 0.025,
+      "deadband": 6,
+      "ema": 0.0,
+      "agreement": 0.8776119402985074
+    },
+    {
+      "gain": 0.025,
+      "deadband": 6,
+      "ema": 0.5,
+      "agreement": 0.863681592039801
+    },
+    {
+      "gain": 0.025,
+      "deadband": 10,
+      "ema": 0.0,
+      "agreement": 0.8776119402985074
+    },
+    {
+      "gain": 0.025,
+      "deadband": 10,
+      "ema": 0.5,
+      "agreement": 0.863681592039801
+    }
+  ],
+  "chosen": {
+    "gain": 0.1,
+    "deadband": 0,
+    "ema": 0.0,
+    "agreement": 1.0
+  }
+}

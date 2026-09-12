@@ -1,0 +1,13 @@
+{
+  "mode": "body",
+  "label": "ab-test-v1-left-A-2021",
+  "seed": 2021,
+  "trials": 1,
+  "hz": 150,
+  "seconds": 1.005,
+  "terrain": "flat",
+  "command": "straight",
+  "video": false,
+  "policy": "A",
+  "scenario": "left"
+}

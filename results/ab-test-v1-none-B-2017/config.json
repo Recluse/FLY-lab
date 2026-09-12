@@ -1,0 +1,13 @@
+{
+  "mode": "body",
+  "label": "ab-test-v1-none-B-2017",
+  "seed": 2017,
+  "trials": 1,
+  "hz": 150,
+  "seconds": 1.005,
+  "terrain": "flat",
+  "command": "straight",
+  "video": false,
+  "policy": "B",
+  "scenario": "none"
+}

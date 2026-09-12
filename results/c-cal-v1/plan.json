@@ -1,0 +1,469 @@
+{
+  "split": "calibration",
+  "jobs": [
+    [
+      "none",
+      1000,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      1001,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      1002,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      1003,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      1004,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      1005,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      1006,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      1007,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      1008,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      1009,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      1000,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      1001,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      1002,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      1003,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      1004,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      1005,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      1006,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      1007,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      1008,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      1009,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      1000,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      1001,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      1002,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      1003,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      1004,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      1005,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      1006,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      1007,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      1008,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      1009,
+      "C",
+      "c-cal-v1",
+      {
+        "brain_tag": "c-brain-cal-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ]
+  ],
+  "episode_s": {
+    "none": 1.005,
+    "left": 1.005,
+    "right": 1.005
+  },
+  "workers": 2,
+  "primary": {
+    "none": "no false command",
+    "left/right": "signed yaw change >0.2rad within 0.5s",
+    "stop": "speed<1mm/s for 0.15s before horizon"
+  },
+  "equivalence_margin_success": 0.05,
+  "bootstrap_seed": 81291,
+  "bootstrap_replicates": 10000
+}

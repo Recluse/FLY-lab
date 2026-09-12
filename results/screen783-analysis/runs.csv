@@ -1,0 +1,39 @@
+label,cell_class,sub_class,side,hz,n_inputs,spikes,active,DNa01L,DNa01R,DNa02L,DNa02R,MN9,avalanche,wall_s
+screen783-gustatory-accessory-pharyngeal-nerve-sensory-group1-left-150,gustatory,accessory_pharyngeal_nerve_sensory_group1,left,150.0,17,248396,8765,21.0,1.0,38.0,1.0,20.0,True,11
+screen783-gustatory-accessory-pharyngeal-nerve-sensory-group1-right-150,gustatory,accessory_pharyngeal_nerve_sensory_group1,right,150.0,19,86523,8462,14.0,4.0,20.0,9.0,30.0,True,10
+screen783-gustatory-bitter-left-150,gustatory,bitter,left,150.0,32,12620,688,6.0,2.0,8.0,2.0,0.0,False,11
+screen783-gustatory-bitter-right-150,gustatory,bitter,right,150.0,33,7290,414,2.0,0.0,0.0,0.0,0.0,False,12
+screen783-gustatory-low-salt-left-150,gustatory,low-salt,left,150.0,9,4086,251,0.0,0.0,0.0,0.0,8.0,False,9
+screen783-gustatory-low-salt-right-150,gustatory,low-salt,right,150.0,10,4840,248,0.0,0.0,0.0,0.0,14.0,False,8
+screen783-gustatory-sugar-water-right-100,gustatory,sugar/water,right,100.0,62,366002,8689,10.0,5.0,44.0,5.0,12.0,True,259
+screen783-gustatory-sugar-water-right-50,gustatory,sugar/water,right,50.0,62,4362,217,0.0,0.0,0.0,0.0,8.0,False,269
+screen783-gustatory-taste-peg-left-150,gustatory,taste peg,left,150.0,36,8789,169,0.0,0.0,0.0,0.0,0.0,False,11
+screen783-gustatory-taste-peg-right-150,gustatory,taste peg,right,150.0,35,8959,261,0.0,0.0,0.0,1.0,42.0,False,11
+screen783-hygrosensory-cooling-left-150,hygrosensory,cooling,left,150.0,6,451762,8338,19.0,8.0,46.0,1.0,0.0,True,11
+screen783-hygrosensory-cooling-right-150,hygrosensory,cooling,right,150.0,7,457989,8398,21.0,7.0,50.0,0.0,0.0,True,13
+screen783-hygrosensory-dry-left-150,hygrosensory,dry,left,150.0,15,465245,8394,19.0,10.0,47.0,3.0,0.0,True,12
+screen783-hygrosensory-dry-right-150,hygrosensory,dry,right,150.0,14,463529,8400,21.0,3.0,50.0,1.0,0.0,True,12
+screen783-hygrosensory-moist-left-150,hygrosensory,moist,left,150.0,9,456335,8365,21.0,8.0,48.0,0.0,0.0,True,13
+screen783-hygrosensory-moist-right-150,hygrosensory,moist,right,150.0,7,456214,8360,24.0,11.0,51.0,0.0,0.0,True,11
+screen783-mechanosensory-auditory-left-150,mechanosensory,auditory,left,150.0,212,33616,325,0.0,0.0,0.0,0.0,0.0,False,30
+screen783-mechanosensory-auditory-right-150,mechanosensory,auditory,right,150.0,175,29644,363,2.0,0.0,0.0,0.0,0.0,False,28
+screen783-mechanosensory-grooming-left-150,mechanosensory,grooming,left,150.0,99,15972,151,0.0,0.0,0.0,0.0,0.0,False,127
+screen783-mechanosensory-grooming-right-150,mechanosensory,grooming,right,150.0,88,13629,115,0.0,0.0,0.0,0.0,0.0,False,15
+screen783-mechanosensory-head-bristle-left-150,mechanosensory,head bristle,left,150.0,150,50911,746,0.0,10.0,17.0,0.0,0.0,False,209
+screen783-mechanosensory-head-bristle-right-150,mechanosensory,head bristle,right,150.0,155,40234,622,0.0,0.0,0.0,12.0,0.0,False,214
+screen783-mechanosensory-taste-peg-left-150,mechanosensory,taste peg,left,150.0,39,11541,244,0.0,0.0,0.0,0.0,13.0,False,13
+screen783-mechanosensory-taste-peg-right-150,mechanosensory,taste peg,right,150.0,36,9330,221,0.0,0.0,0.0,0.0,27.0,False,9
+screen783-mechanosensory-wind-gravity-left-150,mechanosensory,wind_gravity,left,150.0,249,45160,636,0.0,0.0,0.0,0.0,0.0,False,68
+screen783-mechanosensory-wind-gravity-right-150,mechanosensory,wind_gravity,right,150.0,232,42087,593,0.0,0.0,0.0,0.0,0.0,False,29
+screen783-olfactory-pheromone-left-150,olfactory,pheromone,left,150.0,205,504259,8663,27.0,5.0,61.0,0.0,0.0,True,261
+screen783-olfactory-pheromone-right-150,olfactory,pheromone,right,150.0,209,506633,8685,19.0,13.0,48.0,0.0,0.0,True,247
+screen783-pulse-head-bristle-left,mechanosensory,head bristle,left,150.0,150,15406,706,0.0,4.4,4.4,0.0,0.0,False,55
+screen783-pulse-head-bristle-right,mechanosensory,head bristle,right,150.0,155,12176,585,0.0,0.0,0.0,2.2,0.0,False,48
+screen783-thermosensory-cold-left-150,thermosensory,cold,left,150.0,4,461347,8393,20.0,6.0,55.0,0.0,0.0,True,12
+screen783-thermosensory-cold-right-150,thermosensory,cold,right,150.0,5,458398,8424,21.0,5.0,44.0,0.0,0.0,True,12
+screen783-thermosensory-heating-left-150,thermosensory,heating,left,150.0,3,459909,8379,14.0,14.0,54.0,0.0,0.0,True,13
+screen783-thermosensory-heating-right-150,thermosensory,heating,right,150.0,4,463839,8416,23.0,5.0,53.0,0.0,0.0,True,12
+screen783-thermosensory-humid-left-150,thermosensory,humid,left,150.0,6,462193,8364,17.0,3.0,47.0,0.0,0.0,True,12
+screen783-thermosensory-humid-right-150,thermosensory,humid,right,150.0,7,457323,8393,18.0,8.0,47.0,2.0,0.0,True,13
+screen783-visual-DRA-left-150,visual,DRA,left,150.0,79,11726,79,0.0,0.0,0.0,0.0,0.0,False,17
+screen783-visual-DRA-right-150,visual,DRA,right,150.0,76,12130,108,0.0,0.0,0.0,0.0,0.0,False,15

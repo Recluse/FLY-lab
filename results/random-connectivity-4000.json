@@ -1,0 +1,15 @@
+{
+  "random_seed": 4000,
+  "source_edges": 15091983,
+  "edges": 15085979,
+  "dropped_self_loops_or_duplicates": 6004,
+  "preserved": [
+    "neuron count",
+    "edge count (minus dropped)",
+    "weight multiset (permuted, minus dropped)"
+  ],
+  "not_preserved": [
+    "degrees",
+    "any topology"
+  ]
+}

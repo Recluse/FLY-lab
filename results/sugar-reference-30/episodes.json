@@ -1,0 +1,242 @@
+[
+  {
+    "trial": 0,
+    "seed": 10,
+    "MN9_hz": 84,
+    "active_neurons": 372,
+    "spikes": 13632,
+    "wall_s": 6.640639542136341
+  },
+  {
+    "trial": 1,
+    "seed": 11,
+    "MN9_hz": 79,
+    "active_neurons": 385,
+    "spikes": 13567,
+    "wall_s": 47.51463379198685
+  },
+  {
+    "trial": 2,
+    "seed": 12,
+    "MN9_hz": 82,
+    "active_neurons": 379,
+    "spikes": 13949,
+    "wall_s": 45.223973124753684
+  },
+  {
+    "trial": 3,
+    "seed": 13,
+    "MN9_hz": 82,
+    "active_neurons": 364,
+    "spikes": 12795,
+    "wall_s": 34.20345237478614
+  },
+  {
+    "trial": 4,
+    "seed": 14,
+    "MN9_hz": 81,
+    "active_neurons": 384,
+    "spikes": 14008,
+    "wall_s": 30.198801999911666
+  },
+  {
+    "trial": 5,
+    "seed": 15,
+    "MN9_hz": 88,
+    "active_neurons": 378,
+    "spikes": 13872,
+    "wall_s": 30.337625124957412
+  },
+  {
+    "trial": 6,
+    "seed": 16,
+    "MN9_hz": 79,
+    "active_neurons": 387,
+    "spikes": 13501,
+    "wall_s": 29.479100916069
+  },
+  {
+    "trial": 7,
+    "seed": 17,
+    "MN9_hz": 77,
+    "active_neurons": 371,
+    "spikes": 13584,
+    "wall_s": 31.366694000083953
+  },
+  {
+    "trial": 8,
+    "seed": 18,
+    "MN9_hz": 81,
+    "active_neurons": 378,
+    "spikes": 13975,
+    "wall_s": 30.348230000119656
+  },
+  {
+    "trial": 9,
+    "seed": 19,
+    "MN9_hz": 85,
+    "active_neurons": 372,
+    "spikes": 14042,
+    "wall_s": 27.861624374985695
+  },
+  {
+    "trial": 10,
+    "seed": 20,
+    "MN9_hz": 81,
+    "active_neurons": 388,
+    "spikes": 13490,
+    "wall_s": 28.957642917055637
+  },
+  {
+    "trial": 11,
+    "seed": 21,
+    "MN9_hz": 89,
+    "active_neurons": 385,
+    "spikes": 13630,
+    "wall_s": 25.889704917091876
+  },
+  {
+    "trial": 12,
+    "seed": 22,
+    "MN9_hz": 82,
+    "active_neurons": 370,
+    "spikes": 13304,
+    "wall_s": 33.28181629208848
+  },
+  {
+    "trial": 13,
+    "seed": 23,
+    "MN9_hz": 80,
+    "active_neurons": 374,
+    "spikes": 13577,
+    "wall_s": 26.252266166731715
+  },
+  {
+    "trial": 14,
+    "seed": 24,
+    "MN9_hz": 84,
+    "active_neurons": 387,
+    "spikes": 13983,
+    "wall_s": 25.87369199981913
+  },
+  {
+    "trial": 15,
+    "seed": 25,
+    "MN9_hz": 93,
+    "active_neurons": 391,
+    "spikes": 14313,
+    "wall_s": 25.691590833012015
+  },
+  {
+    "trial": 16,
+    "seed": 26,
+    "MN9_hz": 88,
+    "active_neurons": 387,
+    "spikes": 13734,
+    "wall_s": 25.144185834098607
+  },
+  {
+    "trial": 17,
+    "seed": 27,
+    "MN9_hz": 80,
+    "active_neurons": 373,
+    "spikes": 13549,
+    "wall_s": 24.675421542022377
+  },
+  {
+    "trial": 18,
+    "seed": 28,
+    "MN9_hz": 87,
+    "active_neurons": 377,
+    "spikes": 13731,
+    "wall_s": 25.365454208105803
+  },
+  {
+    "trial": 19,
+    "seed": 29,
+    "MN9_hz": 72,
+    "active_neurons": 372,
+    "spikes": 13082,
+    "wall_s": 24.908018458168954
+  },
+  {
+    "trial": 20,
+    "seed": 30,
+    "MN9_hz": 81,
+    "active_neurons": 382,
+    "spikes": 13761,
+    "wall_s": 25.445039540994912
+  },
+  {
+    "trial": 21,
+    "seed": 31,
+    "MN9_hz": 91,
+    "active_neurons": 375,
+    "spikes": 13770,
+    "wall_s": 24.720780084375292
+  },
+  {
+    "trial": 22,
+    "seed": 32,
+    "MN9_hz": 83,
+    "active_neurons": 364,
+    "spikes": 13532,
+    "wall_s": 25.834293458145112
+  },
+  {
+    "trial": 23,
+    "seed": 33,
+    "MN9_hz": 88,
+    "active_neurons": 383,
+    "spikes": 13866,
+    "wall_s": 25.70055583305657
+  },
+  {
+    "trial": 24,
+    "seed": 34,
+    "MN9_hz": 75,
+    "active_neurons": 373,
+    "spikes": 13659,
+    "wall_s": 26.75998791726306
+  },
+  {
+    "trial": 25,
+    "seed": 35,
+    "MN9_hz": 78,
+    "active_neurons": 385,
+    "spikes": 13402,
+    "wall_s": 24.808748832903802
+  },
+  {
+    "trial": 26,
+    "seed": 36,
+    "MN9_hz": 89,
+    "active_neurons": 373,
+    "spikes": 13907,
+    "wall_s": 27.289341167081147
+  },
+  {
+    "trial": 27,
+    "seed": 37,
+    "MN9_hz": 77,
+    "active_neurons": 369,
+    "spikes": 13895,
+    "wall_s": 25.26741383317858
+  },
+  {
+    "trial": 28,
+    "seed": 38,
+    "MN9_hz": 85,
+    "active_neurons": 387,
+    "spikes": 13929,
+    "wall_s": 26.02144179213792
+  },
+  {
+    "trial": 29,
+    "seed": 39,
+    "MN9_hz": 85,
+    "active_neurons": 379,
+    "spikes": 13658,
+    "wall_s": 27.9750852920115
+  }
+]

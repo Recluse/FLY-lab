@@ -1,0 +1,37 @@
+[
+  {
+    "video": "video-left-A-2000",
+    "original": "ab-test-v1-left-A-2000",
+    "trajectory_sha256": "b88e0df1d530234908ff3427f445ad7286858c1438bd81759d2bad66d87c5239",
+    "identical": true,
+    "qa": "sampled contact sheet inspected"
+  },
+  {
+    "video": "video-left-B-2000",
+    "original": "ab-test-v1-left-B-2000",
+    "trajectory_sha256": "cb019707f6e38d83f0e9bc31517c94c6e2dd608348722aaddb591505932c35a8",
+    "identical": true,
+    "qa": "sampled contact sheet inspected"
+  },
+  {
+    "video": "video-right-B-2001",
+    "original": "ab-test-v1-right-B-2001",
+    "trajectory_sha256": "bddfbd374c33a9caf811200f8be712bd4895b8b76ddf894784112f0029d41d6a",
+    "identical": true,
+    "qa": "sampled contact sheet inspected"
+  },
+  {
+    "video": "video-stop-B-2002",
+    "original": "ab-test-stop-v2-stop-B-2002",
+    "trajectory_sha256": "f49a306eb66efa53b8fe83bfa656228254ffe02d69465a60fb848a5ae431fcb2",
+    "identical": true,
+    "qa": "sampled contact sheet inspected"
+  },
+  {
+    "video": "video-stop-B-2000",
+    "original": "ab-test-stop-v2-stop-B-2000",
+    "trajectory_sha256": "32b850b9cd55d27a6c417cc06e3c1e558aea7be5918494d933068759a3b40d38",
+    "identical": true,
+    "qa": "sampled contact sheet inspected"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "scenario": "stop",
+    "seed": 1000,
+    "policy": "A",
+    "folder": "results/ab-calibration-stop-v2-stop-A-1000",
+    "returncode": 0,
+    "success": false,
+    "value": null,
+    "invalid": false,
+    "event_sha256": "1603624b5ee95ee8143659c74c6e46fe453dd00a1c96e9a3cc526811fc9e8b7e"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1000,
+    "policy": "B",
+    "folder": "results/ab-calibration-stop-v2-stop-B-1000",
+    "returncode": 0,
+    "success": true,
+    "value": 1.6199999999999999,
+    "invalid": false,
+    "event_sha256": "1603624b5ee95ee8143659c74c6e46fe453dd00a1c96e9a3cc526811fc9e8b7e"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1001,
+    "policy": "A",
+    "folder": "results/ab-calibration-stop-v2-stop-A-1001",
+    "returncode": 0,
+    "success": false,
+    "value": null,
+    "invalid": false,
+    "event_sha256": "76f2f7fcd4f3a6e22bba1dfdc0c85c93c83c4410875672623923de9906e076ed"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1001,
+    "policy": "B",
+    "folder": "results/ab-calibration-stop-v2-stop-B-1001",
+    "returncode": 0,
+    "success": true,
+    "value": 0.22499999999999998,
+    "invalid": false,
+    "event_sha256": "76f2f7fcd4f3a6e22bba1dfdc0c85c93c83c4410875672623923de9906e076ed"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1002,
+    "policy": "A",
+    "folder": "results/ab-calibration-stop-v2-stop-A-1002",
+    "returncode": 0,
+    "success": false,
+    "value": null,
+    "invalid": false,
+    "event_sha256": "4df1cc44a6d3561384ef6b2c0c145fd64148b0780e2efe86830884a17edb5a03"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1002,
+    "policy": "B",
+    "folder": "results/ab-calibration-stop-v2-stop-B-1002",
+    "returncode": 0,
+    "success": true,
+    "value": 0.21000000000000002,
+    "invalid": false,
+    "event_sha256": "4df1cc44a6d3561384ef6b2c0c145fd64148b0780e2efe86830884a17edb5a03"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1003,
+    "policy": "A",
+    "folder": "results/ab-calibration-stop-v2-stop-A-1003",
+    "returncode": 0,
+    "success": false,
+    "value": null,
+    "invalid": false,
+    "event_sha256": "4c476bc446ee3d9e2b1a39bc07544e9d1989d13d983504526286e9893a6ab979"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1003,
+    "policy": "B",
+    "folder": "results/ab-calibration-stop-v2-stop-B-1003",
+    "returncode": 0,
+    "success": true,
+    "value": 0.69,
+    "invalid": false,
+    "event_sha256": "4c476bc446ee3d9e2b1a39bc07544e9d1989d13d983504526286e9893a6ab979"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1004,
+    "policy": "A",
+    "folder": "results/ab-calibration-stop-v2-stop-A-1004",
+    "returncode": 0,
+    "success": false,
+    "value": null,
+    "invalid": false,
+    "event_sha256": "ca23d95e3adefda150bb7ae29e9e782461ded0695352bc6a0f4a650aca2c3aea"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1004,
+    "policy": "B",
+    "folder": "results/ab-calibration-stop-v2-stop-B-1004",
+    "returncode": 0,
+    "success": false,
+    "value": null,
+    "invalid": false,
+    "event_sha256": "ca23d95e3adefda150bb7ae29e9e782461ded0695352bc6a0f4a650aca2c3aea"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1005,
+    "policy": "A",
+    "folder": "results/ab-calibration-stop-v2-stop-A-1005",
+    "returncode": 0,
+    "success": false,
+    "value": null,
+    "invalid": false,
+    "event_sha256": "fd327614e07c8a128deec2528cd12f85279fbc4e3d3edcef76656937dbf436b0"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1005,
+    "policy": "B",
+    "folder": "results/ab-calibration-stop-v2-stop-B-1005",
+    "returncode": 0,
+    "success": true,
+    "value": 1.7249999999999999,
+    "invalid": false,
+    "event_sha256": "fd327614e07c8a128deec2528cd12f85279fbc4e3d3edcef76656937dbf436b0"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1006,
+    "policy": "A",
+    "folder": "results/ab-calibration-stop-v2-stop-A-1006",
+    "returncode": 0,
+    "success": false,
+    "value": null,
+    "invalid": false,
+    "event_sha256": "a0d7fc72dcb63cc1c5349e658f0db3ad227e936f20af784af1c43f17dec6f1ff"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1006,
+    "policy": "B",
+    "folder": "results/ab-calibration-stop-v2-stop-B-1006",
+    "returncode": 0,
+    "success": true,
+    "value": 1.365,
+    "invalid": false,
+    "event_sha256": "a0d7fc72dcb63cc1c5349e658f0db3ad227e936f20af784af1c43f17dec6f1ff"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1007,
+    "policy": "A",
+    "folder": "results/ab-calibration-stop-v2-stop-A-1007",
+    "returncode": 0,
+    "success": false,
+    "value": null,
+    "invalid": false,
+    "event_sha256": "4374d29b0c347ded1baecccbe053e40668a89293dbce952d2da2cd1dc6d2de69"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1007,
+    "policy": "B",
+    "folder": "results/ab-calibration-stop-v2-stop-B-1007",
+    "returncode": 0,
+    "success": true,
+    "value": 0.285,
+    "invalid": false,
+    "event_sha256": "4374d29b0c347ded1baecccbe053e40668a89293dbce952d2da2cd1dc6d2de69"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1008,
+    "policy": "A",
+    "folder": "results/ab-calibration-stop-v2-stop-A-1008",
+    "returncode": 0,
+    "success": false,
+    "value": null,
+    "invalid": false,
+    "event_sha256": "a34f8c67c52cc4501949e5f9c5cc29caad843acb379245619cb1fb0ecc4a4aa3"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1008,
+    "policy": "B",
+    "folder": "results/ab-calibration-stop-v2-stop-B-1008",
+    "returncode": 0,
+    "success": true,
+    "value": 0.45,
+    "invalid": false,
+    "event_sha256": "a34f8c67c52cc4501949e5f9c5cc29caad843acb379245619cb1fb0ecc4a4aa3"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1009,
+    "policy": "A",
+    "folder": "results/ab-calibration-stop-v2-stop-A-1009",
+    "returncode": 0,
+    "success": false,
+    "value": null,
+    "invalid": false,
+    "event_sha256": "b615508f5fa1d0fb858a89e5f0a1a4fe3503b9e515fe8e6186ef32b2c2c6a3ec"
+  },
+  {
+    "scenario": "stop",
+    "seed": 1009,
+    "policy": "B",
+    "folder": "results/ab-calibration-stop-v2-stop-B-1009",
+    "returncode": 0,
+    "success": true,
+    "value": 1.1549999999999998,
+    "invalid": false,
+    "event_sha256": "b615508f5fa1d0fb858a89e5f0a1a4fe3503b9e515fe8e6186ef32b2c2c6a3ec"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "mode": "body",
+  "label": "e-test-v1-s4002-right-E-2006",
+  "seed": 2006,
+  "trials": 1,
+  "hz": 150,
+  "seconds": 1.005,
+  "terrain": "flat",
+  "command": "straight",
+  "video": false,
+  "policy": "E",
+  "brain_ticks": "/Users/recluse/Work/FLY-lab/results/e-brain-test-v1-s4002-right-2006/brain_ticks.json",
+  "readout_gain": 0.1,
+  "readout_deadband": 0.0,
+  "readout_ema": 0.0,
+  "scenario": "right"
+}

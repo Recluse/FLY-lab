@@ -1,0 +1,2 @@
+.venv-brain/bin/python brain_probe.py pulse783 --label screen783-pulse-head-bristle-left --side left --cell-class mechanosensory --sub-class 'head bristle' --hz 150 > results/screen783-pulse-head-bristle-left.log 2>&1
+.venv-brain/bin/python brain_probe.py pulse783 --label screen783-pulse-head-bristle-right --side right --cell-class mechanosensory --sub-class 'head bristle' --hz 150 > results/screen783-pulse-head-bristle-right.log 2>&1

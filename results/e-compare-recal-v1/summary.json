@@ -1,0 +1,128 @@
+{
+  "none": {
+    "reference": "cd-test-v1:C",
+    "networks": {
+      "e-recal-test-v1-s4000": {
+        "E_successes": 30,
+        "denominator": 30,
+        "invalid": 0,
+        "mean_difference_E_minus_ref": 0.0
+      },
+      "e-recal-test-v1-s4001": {
+        "E_successes": 30,
+        "denominator": 30,
+        "invalid": 0,
+        "mean_difference_E_minus_ref": 0.0
+      },
+      "e-recal-test-v1-s4002": {
+        "E_successes": 30,
+        "denominator": 30,
+        "invalid": 0,
+        "mean_difference_E_minus_ref": 0.0
+      },
+      "e-recal-test-v1-s4003": {
+        "E_successes": 30,
+        "denominator": 30,
+        "invalid": 0,
+        "mean_difference_E_minus_ref": 0.0
+      },
+      "e-recal-test-v1-s4004": {
+        "E_successes": 30,
+        "denominator": 30,
+        "invalid": 0,
+        "mean_difference_E_minus_ref": 0.0
+      }
+    },
+    "mean_difference_E_minus_ref": 0.0,
+    "hierarchical_bootstrap_95": [
+      0.0,
+      0.0
+    ],
+    "n_networks": 5,
+    "note": "networks resampled first, then paired episodes; silence/saturation of shuffled networks is reported, not interpreted as computation in the original"
+  },
+  "left": {
+    "reference": "cd-test-v1:C",
+    "networks": {
+      "e-recal-test-v1-s4000": {
+        "E_successes": 30,
+        "denominator": 30,
+        "invalid": 0,
+        "mean_difference_E_minus_ref": 0.0
+      },
+      "e-recal-test-v1-s4001": {
+        "E_successes": 0,
+        "denominator": 30,
+        "invalid": 0,
+        "mean_difference_E_minus_ref": -1.0
+      },
+      "e-recal-test-v1-s4002": {
+        "E_successes": 30,
+        "denominator": 30,
+        "invalid": 0,
+        "mean_difference_E_minus_ref": 0.0
+      },
+      "e-recal-test-v1-s4003": {
+        "E_successes": 19,
+        "denominator": 30,
+        "invalid": 0,
+        "mean_difference_E_minus_ref": -0.36666666666666664
+      },
+      "e-recal-test-v1-s4004": {
+        "E_successes": 0,
+        "denominator": 30,
+        "invalid": 0,
+        "mean_difference_E_minus_ref": -1.0
+      }
+    },
+    "mean_difference_E_minus_ref": -0.47333333333333333,
+    "hierarchical_bootstrap_95": [
+      -0.8666666666666668,
+      -0.08
+    ],
+    "n_networks": 5,
+    "note": "networks resampled first, then paired episodes; silence/saturation of shuffled networks is reported, not interpreted as computation in the original"
+  },
+  "right": {
+    "reference": "cd-test-v1:C",
+    "networks": {
+      "e-recal-test-v1-s4000": {
+        "E_successes": 0,
+        "denominator": 30,
+        "invalid": 0,
+        "mean_difference_E_minus_ref": -1.0
+      },
+      "e-recal-test-v1-s4001": {
+        "E_successes": 0,
+        "denominator": 30,
+        "invalid": 0,
+        "mean_difference_E_minus_ref": -1.0
+      },
+      "e-recal-test-v1-s4002": {
+        "E_successes": 0,
+        "denominator": 30,
+        "invalid": 0,
+        "mean_difference_E_minus_ref": -1.0
+      },
+      "e-recal-test-v1-s4003": {
+        "E_successes": 0,
+        "denominator": 30,
+        "invalid": 0,
+        "mean_difference_E_minus_ref": -1.0
+      },
+      "e-recal-test-v1-s4004": {
+        "E_successes": 0,
+        "denominator": 30,
+        "invalid": 0,
+        "mean_difference_E_minus_ref": -1.0
+      }
+    },
+    "mean_difference_E_minus_ref": -1.0,
+    "hierarchical_bootstrap_95": [
+      -1.0,
+      -1.0
+    ],
+    "n_networks": 5,
+    "note": "networks resampled first, then paired episodes; silence/saturation of shuffled networks is reported, not interpreted as computation in the original"
+  }
+}

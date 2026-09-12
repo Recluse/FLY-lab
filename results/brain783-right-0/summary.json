@@ -1,0 +1,19 @@
+{
+  "materialization": 783,
+  "seed": 0,
+  "input_side": "right",
+  "input_hz": 150,
+  "n_inputs": 62,
+  "duration_s": 1,
+  "output_hz": {
+    "DNa01L": 17,
+    "DNa01R": 8,
+    "DNa02L": 55,
+    "DNa02R": 1,
+    "MN9": 27
+  },
+  "spikes": 456204,
+  "active_neurons": 8723,
+  "wall_s": 60.31450500013307,
+  "peak_rss_bytes": 2389065728
+}

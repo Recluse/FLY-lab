@@ -1,0 +1,21 @@
+{
+  "A": {
+    "episodes": 120,
+    "episodes_with_any_flip": 0,
+    "time_weighted_upright_fraction": 1.0,
+    "command_at_limit_fraction": 0.0,
+    "median_simulation_wall_s": 26.942285979632288,
+    "median_model_to_wall": 0.040479825936821215,
+    "max_peak_process_rss_bytes": 670531584
+  },
+  "B": {
+    "episodes": 120,
+    "episodes_with_any_flip": 0,
+    "time_weighted_upright_fraction": 1.0,
+    "command_at_limit_fraction": 0.7133000831255195,
+    "median_simulation_wall_s": 28.10232395795174,
+    "median_model_to_wall": 0.03822118259999223,
+    "max_peak_process_rss_bytes": 668991488
+  },
+  "notes": "Limits include intentional speed=0 stops and |turn|=1 commands. Wall time excludes initialization and is confounded by concurrent jobs. RSS is per-process peak, not simultaneous total or separate VRAM. Physics and LIF use CPU; no vision."
+}

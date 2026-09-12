@@ -1,0 +1,348 @@
+cell_class,sub_class,hz,DN_type,n_cells,ipsi_spikes,contra_spikes,index
+mechanosensory,wind_gravity,150.0,DNge091,17,296,0,1.0
+mechanosensory,wind_gravity,150.0,DNg07,16,199,0,1.0
+mechanosensory,wind_gravity,150.0,DNp18,2,151,0,1.0
+mechanosensory,grooming,150.0,DNg35,2,136,0,1.0
+mechanosensory,wind_gravity,150.0,DNb06,2,127,0,1.0
+mechanosensory,auditory,150.0,DNg29,2,122,0,1.0
+mechanosensory,grooming,150.0,DNg84,2,122,0,1.0
+mechanosensory,wind_gravity,150.0,DNg29,2,116,0,1.0
+mechanosensory,head bristle,150.0,DNge132,2,101,0,1.0
+mechanosensory,head bristle,150.0,DNge036,2,96,0,1.0
+mechanosensory,auditory,150.0,DNb06,2,75,0,1.0
+mechanosensory,auditory,150.0,DNp01,2,72,0,1.0
+mechanosensory,auditory,150.0,DNb05,2,71,0,1.0
+mechanosensory,auditory,150.0,DNg24,2,70,0,1.0
+mechanosensory,wind_gravity,150.0,DNpe017,2,68,0,1.0
+mechanosensory,grooming,150.0,DNg57,2,64,0,1.0
+mechanosensory,taste peg,150.0,DNge101,2,62,0,1.0
+mechanosensory,wind_gravity,150.0,DNpe014,4,62,0,1.0
+mechanosensory,auditory,150.0,DNge145,4,59,0,1.0
+mechanosensory,wind_gravity,150.0,DNp40,2,55,0,1.0
+mechanosensory,wind_gravity,150.0,DNge111,5,53,0,1.0
+mechanosensory,auditory,150.0,DNpe014,4,52,0,1.0
+mechanosensory,auditory,150.0,DNge113,5,48,0,1.0
+mechanosensory,auditory,150.0,DNp11,2,45,0,1.0
+mechanosensory,wind_gravity,150.0,DNge132,2,45,0,1.0
+mechanosensory,wind_gravity,150.0,DNp10,2,45,0,1.0
+mechanosensory,auditory,150.0,DNp02,2,44,0,1.0
+mechanosensory,wind_gravity,150.0,DNg06,11,40,0,1.0
+mechanosensory,auditory,150.0,DNg84,2,39,0,1.0
+mechanosensory,auditory,150.0,DNge130,2,39,0,1.0
+mechanosensory,grooming,150.0,DNge054,2,39,0,1.0
+mechanosensory,head bristle,150.0,DNg39,2,38,0,1.0
+mechanosensory,wind_gravity,150.0,DNge084,2,38,0,1.0
+mechanosensory,head bristle,150.0,DNp13,2,37,0,1.0
+mechanosensory,grooming,150.0,DNg29,2,35,0,1.0
+mechanosensory,grooming,150.0,DNge011,2,35,0,1.0
+mechanosensory,taste peg,150.0,DNge173,2,35,0,1.0
+mechanosensory,auditory,150.0,DNg99,2,34,0,1.0
+mechanosensory,grooming,150.0,DNpe002,2,34,0,1.0
+gustatory,taste peg,150.0,DNg47,2,32,0,1.0
+mechanosensory,head bristle,150.0,DNg61,2,32,0,1.0
+mechanosensory,head bristle,150.0,DNde006,2,31,0,1.0
+mechanosensory,head bristle,150.0,DNpe056,2,30,0,1.0
+mechanosensory,wind_gravity,150.0,DNg35,2,30,0,1.0
+mechanosensory,auditory,150.0,DNp103,2,28,0,1.0
+mechanosensory,head bristle,150.0,DNge019,12,28,0,1.0
+mechanosensory,wind_gravity,150.0,DNg84,2,28,0,1.0
+mechanosensory,wind_gravity,150.0,DNg87,2,27,0,1.0
+mechanosensory,grooming,150.0,DNge037,2,26,0,1.0
+mechanosensory,auditory,150.0,DNp55,2,25,0,1.0
+mechanosensory,wind_gravity,150.0,DNb05,2,24,0,1.0
+gustatory,taste peg,150.0,DNge101,2,23,0,1.0
+mechanosensory,auditory,150.0,DNge091,17,23,0,1.0
+gustatory,taste peg,150.0,DNde002,2,22,0,1.0
+mechanosensory,auditory,150.0,DNp06,2,21,0,1.0
+mechanosensory,head bristle,150.0,DNp55,2,21,0,1.0
+mechanosensory,taste peg,150.0,DNde002,2,21,0,1.0
+mechanosensory,wind_gravity,150.0,DNge175,2,21,0,1.0
+mechanosensory,head bristle,150.0,DNg12_e,8,19,0,1.0
+mechanosensory,auditory,150.0,DNg40,2,18,0,1.0
+mechanosensory,auditory,150.0,DNg35,2,17,0,1.0
+mechanosensory,head bristle,150.0,DNae002,2,17,0,1.0
+mechanosensory,head bristle,150.0,DNge025,2,17,0,1.0
+mechanosensory,head bristle,150.0,DNge119,2,16,0,1.0
+mechanosensory,wind_gravity,150.0,DNge043,2,16,0,1.0
+mechanosensory,wind_gravity,150.0,DNp20,2,16,0,1.0
+mechanosensory,wind_gravity,150.0,DNp22,2,16,0,1.0
+mechanosensory,auditory,150.0,DNp40,2,15,0,1.0
+mechanosensory,head bristle,150.0,DNge039,2,15,0,1.0
+mechanosensory,wind_gravity,150.0,DNge070,2,15,0,1.0
+mechanosensory,grooming,150.0,DNg20,2,14,0,1.0
+mechanosensory,wind_gravity,150.0,DNae010,2,14,0,1.0
+gustatory,bitter,150.0,DNp42,2,13,0,1.0
+mechanosensory,head bristle,150.0,DNge011,2,13,0,1.0
+mechanosensory,head bristle,150.0,DNpe025,2,13,0,1.0
+mechanosensory,wind_gravity,150.0,DNge011,2,13,0,1.0
+mechanosensory,auditory,150.0,DNp73,2,11,0,1.0
+mechanosensory,auditory,150.0,DNpe017,2,11,0,1.0
+mechanosensory,head bristle,150.0,DNge101,2,11,0,1.0
+mechanosensory,head bristle,150.0,DNge105,2,11,0,1.0
+mechanosensory,head bristle,150.0,DNpe050,2,11,0,1.0
+mechanosensory,taste peg,150.0,DNg75,2,11,0,1.0
+mechanosensory,taste peg,150.0,DNge174,2,11,0,1.0
+mechanosensory,auditory,150.0,DNbe001,2,10,0,1.0
+mechanosensory,auditory,150.0,DNge054,2,10,0,1.0
+mechanosensory,taste peg,150.0,DNg60,2,10,0,1.0
+mechanosensory,wind_gravity,150.0,DNge054,2,10,0,1.0
+mechanosensory,head bristle,150.0,DNge068,2,9,0,1.0
+mechanosensory,head bristle,150.0,DNp18,2,8,0,1.0
+mechanosensory,head bristle,150.0,DNpe037,2,8,0,1.0
+mechanosensory,wind_gravity,150.0,DNg97,2,8,0,1.0
+mechanosensory,wind_gravity,150.0,DNp51,2,8,0,1.0
+gustatory,taste peg,150.0,DNa16,2,7,0,1.0
+mechanosensory,wind_gravity,150.0,DNae009,2,7,0,1.0
+mechanosensory,auditory,150.0,DNp71,2,6,0,1.0
+mechanosensory,head bristle,150.0,DNa02,2,6,0,1.0
+mechanosensory,head bristle,150.0,DNge060,2,6,0,1.0
+mechanosensory,taste peg,150.0,DNge062,2,6,0,1.0
+gustatory,taste peg,150.0,DNg35,2,5,0,1.0
+gustatory,taste peg,150.0,DNge173,2,5,0,1.0
+mechanosensory,auditory,150.0,DNp69,2,5,0,1.0
+mechanosensory,grooming,150.0,DNae007,2,5,0,1.0
+mechanosensory,head bristle,150.0,DNge001,4,5,0,1.0
+mechanosensory,head bristle,150.0,DNge044,2,5,0,1.0
+mechanosensory,head bristle,150.0,DNge062,2,5,0,1.0
+mechanosensory,head bristle,150.0,DNge146,2,5,0,1.0
+mechanosensory,head bristle,150.0,DNge147,2,5,0,1.0
+mechanosensory,taste peg,150.0,DNa16,2,5,0,1.0
+mechanosensory,taste peg,150.0,DNge125,2,5,0,1.0
+mechanosensory,wind_gravity,150.0,DNa04,2,5,0,1.0
+mechanosensory,wind_gravity,150.0,DNae002,2,5,0,1.0
+mechanosensory,wind_gravity,150.0,DNge113,5,5,0,1.0
+gustatory,low-salt,150.0,DNge062,2,4,0,1.0
+mechanosensory,grooming,150.0,DNge041,2,4,0,1.0
+mechanosensory,wind_gravity,150.0,DNg94,2,4,0,1.0
+mechanosensory,wind_gravity,150.0,DNpe002,2,4,0,1.0
+mechanosensory,auditory,150.0,DNg09,8,3,0,1.0
+mechanosensory,auditory,150.0,DNge119,2,3,0,1.0
+mechanosensory,auditory,150.0,DNge124,2,3,0,1.0
+mechanosensory,head bristle,150.0,DNp66,2,3,0,1.0
+mechanosensory,wind_gravity,150.0,DNg51,4,3,0,1.0
+mechanosensory,wind_gravity,150.0,DNpe019,2,3,0,1.0
+gustatory,bitter,150.0,DNge035,2,2,0,1.0
+gustatory,low-salt,150.0,DNg35,2,2,0,1.0
+gustatory,low-salt,150.0,DNge036,2,2,0,1.0
+gustatory,taste peg,150.0,DNge123,2,2,0,1.0
+mechanosensory,auditory,150.0,DNg51,4,2,0,1.0
+mechanosensory,head bristle,150.0,DNa13,4,2,0,1.0
+mechanosensory,head bristle,150.0,DNge031,2,2,0,1.0
+mechanosensory,taste peg,150.0,DNg35,2,2,0,1.0
+mechanosensory,taste peg,150.0,DNge146,2,2,0,1.0
+mechanosensory,wind_gravity,150.0,DNa11,2,2,0,1.0
+mechanosensory,wind_gravity,150.0,DNg05_a,2,2,0,1.0
+gustatory,bitter,150.0,DNa04,2,1,0,1.0
+gustatory,bitter,150.0,DNa06,2,1,0,1.0
+gustatory,bitter,150.0,DNa15,2,1,0,1.0
+gustatory,bitter,150.0,DNg104,2,1,0,1.0
+gustatory,bitter,150.0,DNge033,2,1,0,1.0
+gustatory,low-salt,150.0,DNa16,2,1,0,1.0
+gustatory,low-salt,150.0,DNge004,2,1,0,1.0
+gustatory,taste peg,150.0,DNa02,2,1,0,1.0
+gustatory,taste peg,150.0,DNg90,2,1,0,1.0
+gustatory,taste peg,150.0,DNge043,2,1,0,1.0
+mechanosensory,head bristle,150.0,DNa16,2,1,0,1.0
+mechanosensory,head bristle,150.0,DNg108,2,1,0,1.0
+mechanosensory,head bristle,150.0,DNge021,2,1,0,1.0
+mechanosensory,head bristle,150.0,DNge123,2,1,0,1.0
+mechanosensory,head bristle,150.0,DNpe023,2,1,0,1.0
+mechanosensory,taste peg,150.0,DNge018,2,1,0,1.0
+mechanosensory,taste peg,150.0,DNge037,2,1,0,1.0
+mechanosensory,taste peg,150.0,DNge123,2,1,0,1.0
+mechanosensory,wind_gravity,150.0,DNp06,2,1,0,1.0
+mechanosensory,wind_gravity,150.0,DNp11,2,1,0,1.0
+mechanosensory,taste peg,150.0,DNge031,2,58,1,0.97
+mechanosensory,head bristle,150.0,DNge100,2,54,1,0.96
+mechanosensory,head bristle,150.0,DNge133,2,52,1,0.96
+mechanosensory,taste peg,150.0,DNge042,2,41,1,0.95
+mechanosensory,taste peg,150.0,DNg96,2,26,1,0.93
+mechanosensory,taste peg,150.0,DNg47,2,70,3,0.92
+mechanosensory,auditory,150.0,DNp18,2,32,2,0.88
+mechanosensory,auditory,150.0,DNp35,2,14,1,0.87
+mechanosensory,head bristle,150.0,DNg23,2,32,3,0.83
+mechanosensory,head bristle,150.0,DNge124,2,21,2,0.83
+mechanosensory,wind_gravity,150.0,DNge016,2,51,5,0.82
+gustatory,bitter,150.0,DNge067,2,45,5,0.8
+mechanosensory,head bristle,150.0,DNg35,2,116,14,0.78
+mechanosensory,taste peg,150.0,DNg105,2,8,1,0.78
+mechanosensory,head bristle,150.0,DNg85,2,104,15,0.75
+mechanosensory,auditory,150.0,DNp12,2,81,13,0.72
+mechanosensory,head bristle,150.0,DNae007,2,35,6,0.71
+mechanosensory,head bristle,150.0,DNge012,2,30,6,0.67
+gustatory,taste peg,150.0,DNg28,4,5,1,0.67
+mechanosensory,taste peg,150.0,DNg28,4,56,12,0.65
+gustatory,taste peg,150.0,DNg38,2,45,11,0.61
+gustatory,low-salt,150.0,DNg103,2,37,9,0.61
+gustatory,taste peg,150.0,DNg75,2,12,3,0.6
+gustatory,bitter,150.0,DNa02,2,8,2,0.6
+mechanosensory,head bristle,150.0,DNge041,2,59,16,0.57
+mechanosensory,head bristle,150.0,DNge128,2,47,13,0.57
+mechanosensory,head bristle,150.0,DNge054,2,63,18,0.56
+mechanosensory,head bristle,150.0,DNge003,2,21,6,0.56
+mechanosensory,wind_gravity,150.0,DNp73,2,79,23,0.55
+gustatory,taste peg,150.0,DNge023,2,119,36,0.54
+mechanosensory,head bristle,150.0,DNg87,2,70,22,0.52
+mechanosensory,wind_gravity,150.0,DNbe001,2,126,41,0.51
+mechanosensory,head bristle,150.0,DNge069,2,6,2,0.5
+mechanosensory,taste peg,150.0,DNg16,2,6,2,0.5
+gustatory,bitter,150.0,DNge004,2,3,1,0.5
+mechanosensory,head bristle,150.0,DNpe002,2,34,12,0.48
+mechanosensory,head bristle,150.0,DNge067,2,80,31,0.44
+mechanosensory,head bristle,150.0,DNg57,2,77,31,0.43
+gustatory,taste peg,150.0,DNge031,2,48,19,0.43
+mechanosensory,wind_gravity,150.0,DNp19,2,75,31,0.42
+gustatory,bitter,150.0,DNpe007,2,66,27,0.42
+mechanosensory,head bristle,150.0,DNg84,2,114,50,0.39
+gustatory,taste peg,150.0,DNge007,2,17,8,0.36
+gustatory,low-salt,150.0,DNge003,2,14,7,0.33
+gustatory,taste peg,150.0,DNge018,2,10,5,0.33
+gustatory,low-salt,150.0,DNge023,2,8,4,0.33
+gustatory,bitter,150.0,DNa16,2,4,2,0.33
+gustatory,bitter,150.0,DNbe006,2,4,2,0.33
+mechanosensory,head bristle,150.0,DNge038,2,4,2,0.33
+gustatory,bitter,150.0,DNg75,2,2,1,0.33
+mechanosensory,taste peg,150.0,DNge007,2,2,1,0.33
+mechanosensory,auditory,150.0,DNg108,2,11,6,0.29
+mechanosensory,auditory,150.0,DNg56,2,48,27,0.28
+mechanosensory,head bristle,150.0,DNg59,2,75,43,0.27
+mechanosensory,head bristle,150.0,DNge008,2,47,27,0.27
+mechanosensory,head bristle,150.0,DNge065,2,70,41,0.26
+gustatory,low-salt,150.0,DNg28,4,138,84,0.24
+mechanosensory,taste peg,150.0,DNge023,2,74,45,0.24
+gustatory,taste peg,150.0,DNge040,2,8,5,0.23
+mechanosensory,wind_gravity,150.0,DNg56,2,36,23,0.22
+gustatory,taste peg,150.0,DNge042,2,22,14,0.22
+gustatory,low-salt,150.0,DNge174,2,17,11,0.21
+gustatory,bitter,150.0,DNa01,2,6,4,0.2
+gustatory,low-salt,150.0,DNg31,2,3,2,0.2
+gustatory,low-salt,150.0,DNge106,2,3,2,0.2
+mechanosensory,taste peg,150.0,DNge046,4,3,2,0.2
+gustatory,taste peg,150.0,DNge062,2,13,9,0.18
+gustatory,taste peg,150.0,DNg96,2,10,7,0.18
+mechanosensory,head bristle,150.0,DNg20,2,53,38,0.16
+gustatory,low-salt,150.0,DNge173,2,25,18,0.16
+mechanosensory,wind_gravity,150.0,DNp12,2,61,45,0.15
+mechanosensory,head bristle,150.0,DNge121,2,58,44,0.14
+gustatory,bitter,150.0,DNae002,2,8,6,0.14
+gustatory,taste peg,150.0,DNg16,2,13,10,0.13
+gustatory,taste peg,150.0,DNge125,2,9,7,0.12
+gustatory,bitter,150.0,DNge053,2,22,18,0.1
+mechanosensory,head bristle,150.0,DNge049,2,30,25,0.09
+gustatory,bitter,150.0,DNb01,2,6,5,0.09
+gustatory,bitter,150.0,DNde005,2,6,5,0.09
+mechanosensory,head bristle,150.0,DNge096,2,21,18,0.08
+mechanosensory,wind_gravity,150.0,DNa10,2,26,23,0.06
+mechanosensory,head bristle,150.0,DNge055,2,43,39,0.05
+gustatory,taste peg,150.0,DNge051,2,20,18,0.05
+gustatory,bitter,150.0,DNg100,2,12,11,0.04
+mechanosensory,head bristle,150.0,DNge002,2,35,33,0.03
+mechanosensory,head bristle,150.0,DNge037,2,54,52,0.02
+mechanosensory,head bristle,150.0,DNg54,2,26,26,0.0
+gustatory,bitter,150.0,DNbe007,2,15,15,0.0
+gustatory,bitter,150.0,DNg13,2,15,15,0.0
+gustatory,bitter,150.0,DNge046,4,12,12,0.0
+gustatory,low-salt,150.0,DNge059,2,7,7,0.0
+gustatory,low-salt,150.0,DNg105,2,4,4,0.0
+gustatory,low-salt,150.0,DNge046,4,4,4,0.0
+gustatory,low-salt,150.0,DNg75,2,3,3,0.0
+gustatory,bitter,150.0,DNge050,2,2,2,0.0
+gustatory,bitter,150.0,DNp56,2,2,2,0.0
+mechanosensory,head bristle,150.0,DNpe005,2,1,1,0.0
+mechanosensory,taste peg,150.0,DNge004,2,1,1,0.0
+mechanosensory,wind_gravity,150.0,DNg99,2,1,1,0.0
+gustatory,taste peg,150.0,DNge059,2,33,34,-0.01
+gustatory,bitter,150.0,DNg16,2,12,13,-0.04
+gustatory,taste peg,150.0,DNge080,2,16,18,-0.06
+gustatory,taste peg,150.0,DNge046,4,8,9,-0.06
+gustatory,bitter,150.0,DNg111,2,7,8,-0.07
+mechanosensory,taste peg,150.0,DNge059,2,6,7,-0.08
+gustatory,low-salt,150.0,DNg47,2,10,12,-0.09
+mechanosensory,head bristle,150.0,DNg88,2,9,11,-0.1
+gustatory,bitter,150.0,DNb05,2,12,15,-0.11
+mechanosensory,head bristle,150.0,DNg83,2,25,32,-0.12
+gustatory,taste peg,150.0,DNge106,2,13,17,-0.13
+mechanosensory,head bristle,150.0,DNge122,2,56,74,-0.14
+gustatory,low-salt,150.0,DNge101,2,9,12,-0.14
+gustatory,bitter,150.0,DNb08,4,6,8,-0.14
+gustatory,bitter,150.0,DNge037,2,3,4,-0.14
+gustatory,low-salt,150.0,DNg16,2,3,4,-0.14
+gustatory,low-salt,150.0,DNge125,2,3,4,-0.14
+gustatory,low-salt,150.0,DNge042,2,13,18,-0.16
+mechanosensory,taste peg,150.0,DNg31,2,37,52,-0.17
+gustatory,bitter,150.0,DNg97,2,10,14,-0.17
+gustatory,bitter,150.0,DNg96,2,5,7,-0.17
+mechanosensory,taste peg,150.0,DNge051,2,17,25,-0.19
+gustatory,low-salt,150.0,DNge031,2,12,18,-0.2
+mechanosensory,head bristle,150.0,DNge076,2,4,6,-0.2
+mechanosensory,head bristle,150.0,DNg15,2,74,114,-0.21
+gustatory,taste peg,150.0,DNg105,2,6,10,-0.25
+mechanosensory,head bristle,150.0,DNg81,2,41,71,-0.27
+gustatory,low-salt,150.0,DNg96,2,11,19,-0.27
+gustatory,bitter,150.0,DNge018,2,4,7,-0.27
+mechanosensory,head bristle,150.0,DNg72,4,7,14,-0.33
+gustatory,taste peg,150.0,DNge146,2,4,9,-0.38
+gustatory,bitter,150.0,DNge040,2,3,7,-0.4
+mechanosensory,head bristle,150.0,DNge056,2,27,65,-0.41
+mechanosensory,head bristle,150.0,DNg37,2,25,77,-0.51
+gustatory,bitter,150.0,DNg84,2,4,13,-0.53
+mechanosensory,head bristle,150.0,DNge104,2,22,76,-0.55
+gustatory,bitter,150.0,DNg35,2,4,15,-0.58
+gustatory,taste peg,150.0,DNg31,2,5,25,-0.67
+mechanosensory,head bristle,150.0,DNg78,2,3,19,-0.73
+mechanosensory,head bristle,150.0,DNge125,2,2,13,-0.73
+mechanosensory,head bristle,150.0,DNb09,2,1,7,-0.75
+mechanosensory,taste peg,150.0,DNg38,2,1,10,-0.82
+mechanosensory,wind_gravity,150.0,DNp33,2,1,11,-0.83
+mechanosensory,wind_gravity,150.0,DNge107,2,2,56,-0.93
+gustatory,bitter,150.0,DNbe003,2,0,1,-1.0
+gustatory,bitter,150.0,DNg31,2,0,2,-1.0
+gustatory,bitter,150.0,DNg43,2,0,3,-1.0
+gustatory,bitter,150.0,DNg90,2,0,3,-1.0
+gustatory,bitter,150.0,DNge007,2,0,2,-1.0
+gustatory,bitter,150.0,DNge026,2,0,1,-1.0
+gustatory,bitter,150.0,DNge043,2,0,5,-1.0
+gustatory,bitter,150.0,DNge123,2,0,1,-1.0
+gustatory,bitter,150.0,DNp31,2,0,3,-1.0
+gustatory,bitter,150.0,DNp54,2,0,1,-1.0
+gustatory,low-salt,150.0,DNg38,2,0,5,-1.0
+gustatory,low-salt,150.0,DNge007,2,0,2,-1.0
+gustatory,low-salt,150.0,DNge018,2,0,2,-1.0
+gustatory,low-salt,150.0,DNge040,2,0,2,-1.0
+gustatory,taste peg,150.0,DNg48,2,0,96,-1.0
+gustatory,taste peg,150.0,DNge036,2,0,7,-1.0
+mechanosensory,auditory,150.0,DNa01,2,0,2,-1.0
+mechanosensory,auditory,150.0,DNa13,4,0,4,-1.0
+mechanosensory,auditory,150.0,DNb09,2,0,1,-1.0
+mechanosensory,auditory,150.0,DNg15,2,0,35,-1.0
+mechanosensory,grooming,150.0,DNg15,2,0,2,-1.0
+mechanosensory,grooming,150.0,DNge104,2,0,4,-1.0
+mechanosensory,head bristle,150.0,DNa01,2,0,4,-1.0
+mechanosensory,head bristle,150.0,DNg12_a,8,0,5,-1.0
+mechanosensory,head bristle,150.0,DNg31,2,0,22,-1.0
+mechanosensory,head bristle,150.0,DNg48,2,0,106,-1.0
+mechanosensory,head bristle,150.0,DNg73,2,0,7,-1.0
+mechanosensory,head bristle,150.0,DNg96,2,0,23,-1.0
+mechanosensory,head bristle,150.0,DNge027,2,0,5,-1.0
+mechanosensory,head bristle,150.0,DNge040,2,0,22,-1.0
+mechanosensory,head bristle,150.0,DNge046,4,0,5,-1.0
+mechanosensory,head bristle,150.0,DNge057,2,0,40,-1.0
+mechanosensory,head bristle,150.0,DNge078,2,0,17,-1.0
+mechanosensory,head bristle,150.0,DNge131,2,0,3,-1.0
+mechanosensory,head bristle,150.0,DNp34,2,0,21,-1.0
+mechanosensory,head bristle,150.0,DNp71,2,0,2,-1.0
+mechanosensory,taste peg,150.0,DNg54,2,0,3,-1.0
+mechanosensory,taste peg,150.0,DNge003,2,0,1,-1.0
+mechanosensory,taste peg,150.0,DNge036,2,0,2,-1.0
+mechanosensory,taste peg,150.0,DNge080,2,0,4,-1.0
+mechanosensory,wind_gravity,150.0,DNa16,2,0,2,-1.0
+mechanosensory,wind_gravity,150.0,DNg11,6,0,49,-1.0
+mechanosensory,wind_gravity,150.0,DNg13,2,0,7,-1.0
+mechanosensory,wind_gravity,150.0,DNg15,2,0,18,-1.0
+mechanosensory,wind_gravity,150.0,DNg41,2,0,1,-1.0
+mechanosensory,wind_gravity,150.0,DNg62,2,0,28,-1.0
+mechanosensory,wind_gravity,150.0,DNge078,2,0,31,-1.0
+mechanosensory,wind_gravity,150.0,DNge125,2,0,1,-1.0
+mechanosensory,wind_gravity,150.0,DNp15,2,0,12,-1.0
+mechanosensory,wind_gravity,150.0,DNp41,4,0,45,-1.0
+mechanosensory,wind_gravity,150.0,DNpe027,2,0,20,-1.0

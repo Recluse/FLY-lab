@@ -1,0 +1,182 @@
+{
+  "s4000": {
+    "none": {
+      "spikes_median": 0.0,
+      "active_median": 0.0,
+      "mean_LR_per_tick_during_stim": null,
+      "mean_DN_total_per_tick_during_stim": null
+    },
+    "left": {
+      "spikes_median": 30318.0,
+      "active_median": 1470.5,
+      "mean_LR_per_tick_during_stim": {
+        "median": 1.87,
+        "min": 1.56,
+        "max": 2.13
+      },
+      "mean_DN_total_per_tick_during_stim": 4.5
+    },
+    "right": {
+      "spikes_median": 19712.0,
+      "active_median": 508.0,
+      "mean_LR_per_tick_during_stim": {
+        "median": 0.93,
+        "min": 0.7,
+        "max": 1.2
+      },
+      "mean_DN_total_per_tick_during_stim": 1.6
+    },
+    "recalibrated_readout": {
+      "gain": 0.2,
+      "deadband": 0,
+      "ema": 0.0,
+      "agreement": 0.5840796019900497
+    }
+  },
+  "s4001": {
+    "none": {
+      "spikes_median": 0.0,
+      "active_median": 0.0,
+      "mean_LR_per_tick_during_stim": null,
+      "mean_DN_total_per_tick_during_stim": null
+    },
+    "left": {
+      "spikes_median": 29522.0,
+      "active_median": 1423.0,
+      "mean_LR_per_tick_during_stim": {
+        "median": -1.98,
+        "min": -2.29,
+        "max": -1.57
+      },
+      "mean_DN_total_per_tick_during_stim": 4.5
+    },
+    "right": {
+      "spikes_median": 19868.0,
+      "active_median": 514.5,
+      "mean_LR_per_tick_during_stim": {
+        "median": 0.14,
+        "min": -0.2,
+        "max": 0.41
+      },
+      "mean_DN_total_per_tick_during_stim": 1.4
+    },
+    "recalibrated_readout": {
+      "gain": 0.2,
+      "deadband": 0,
+      "ema": 0.0,
+      "agreement": 0.5009950248756219
+    }
+  },
+  "s4002": {
+    "none": {
+      "spikes_median": 0.0,
+      "active_median": 0.0,
+      "mean_LR_per_tick_during_stim": null,
+      "mean_DN_total_per_tick_during_stim": null
+    },
+    "left": {
+      "spikes_median": 28696.5,
+      "active_median": 1352.0,
+      "mean_LR_per_tick_during_stim": {
+        "median": 1.95,
+        "min": 1.53,
+        "max": 2.43
+      },
+      "mean_DN_total_per_tick_during_stim": 6.6
+    },
+    "right": {
+      "spikes_median": 19614.5,
+      "active_median": 505.0,
+      "mean_LR_per_tick_during_stim": {
+        "median": 0.32,
+        "min": 0.15,
+        "max": 0.5
+      },
+      "mean_DN_total_per_tick_during_stim": 0.4
+    },
+    "recalibrated_readout": {
+      "gain": 0.2,
+      "deadband": 0,
+      "ema": 0.0,
+      "agreement": 0.5960199004975124
+    }
+  },
+  "s4003": {
+    "none": {
+      "spikes_median": 0.0,
+      "active_median": 0.0,
+      "mean_LR_per_tick_during_stim": null,
+      "mean_DN_total_per_tick_during_stim": null
+    },
+    "left": {
+      "spikes_median": 28732.5,
+      "active_median": 1360.0,
+      "mean_LR_per_tick_during_stim": {
+        "median": 1.02,
+        "min": 0.75,
+        "max": 1.31
+      },
+      "mean_DN_total_per_tick_during_stim": 2.7
+    },
+    "right": {
+      "spikes_median": 19756.5,
+      "active_median": 475.0,
+      "mean_LR_per_tick_during_stim": {
+        "median": 0.27,
+        "min": 0.04,
+        "max": 0.37
+      },
+      "mean_DN_total_per_tick_during_stim": 1.2
+    },
+    "recalibrated_readout": {
+      "gain": 0.2,
+      "deadband": 0,
+      "ema": 0.0,
+      "agreement": 0.5353233830845772
+    }
+  },
+  "s4004": {
+    "none": {
+      "spikes_median": 0.0,
+      "active_median": 0.0,
+      "mean_LR_per_tick_during_stim": null,
+      "mean_DN_total_per_tick_during_stim": null
+    },
+    "left": {
+      "spikes_median": 30824.0,
+      "active_median": 1476.0,
+      "mean_LR_per_tick_during_stim": {
+        "median": -1.79,
+        "min": -2.27,
+        "max": -1.17
+      },
+      "mean_DN_total_per_tick_during_stim": 4.5
+    },
+    "right": {
+      "spikes_median": 20488.5,
+      "active_median": 571.0,
+      "mean_LR_per_tick_during_stim": {
+        "median": 0.3,
+        "min": 0.13,
+        "max": 0.52
+      },
+      "mean_DN_total_per_tick_during_stim": 1.8
+    },
+    "recalibrated_readout": {
+      "gain": 0.2,
+      "deadband": 0,
+      "ema": 0.0,
+      "agreement": 0.49950248756218907
+    }
+  },
+  "original_C_reference": {
+    "left": {
+      "mean_LR_per_tick_during_stim_median": 27.78,
+      "mean_DN_total_per_tick_median": 121.5
+    },
+    "right": {
+      "mean_LR_per_tick_during_stim_median": -20.07,
+      "mean_DN_total_per_tick_median": 74.4
+    }
+  }
+}

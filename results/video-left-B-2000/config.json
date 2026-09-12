@@ -1,0 +1,13 @@
+{
+  "mode": "body",
+  "label": "video-left-B-2000",
+  "seed": 2000,
+  "trials": 1,
+  "hz": 150,
+  "seconds": 1.005,
+  "terrain": "flat",
+  "command": "straight",
+  "video": true,
+  "policy": "B",
+  "scenario": "left"
+}

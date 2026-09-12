@@ -1,0 +1,67 @@
+{
+  "edges_checked": 15091983,
+  "all_indices_and_weights_valid": true,
+  "sides": {
+    "left": {
+      "positive_path_hops_up_to_8": {
+        "DNa01L": 2,
+        "DNa01R": 2,
+        "DNa02L": 2,
+        "DNa02R": 2
+      },
+      "aggregate_presynaptic_events": {
+        "DNa01L": {
+          "excitatory_weight_times_spikes": 3261,
+          "inhibitory_weight_times_spikes": -2112,
+          "active_presynaptic_neurons": 33
+        },
+        "DNa01R": {
+          "excitatory_weight_times_spikes": 2799,
+          "inhibitory_weight_times_spikes": -2266,
+          "active_presynaptic_neurons": 25
+        },
+        "DNa02L": {
+          "excitatory_weight_times_spikes": 905,
+          "inhibitory_weight_times_spikes": -1535,
+          "active_presynaptic_neurons": 18
+        },
+        "DNa02R": {
+          "excitatory_weight_times_spikes": 1172,
+          "inhibitory_weight_times_spikes": -2890,
+          "active_presynaptic_neurons": 19
+        }
+      }
+    },
+    "right": {
+      "positive_path_hops_up_to_8": {
+        "DNa01L": 2,
+        "DNa01R": 2,
+        "DNa02L": 2,
+        "DNa02R": 2
+      },
+      "aggregate_presynaptic_events": {
+        "DNa01L": {
+          "excitatory_weight_times_spikes": 18601,
+          "inhibitory_weight_times_spikes": -17870,
+          "active_presynaptic_neurons": 78
+        },
+        "DNa01R": {
+          "excitatory_weight_times_spikes": 18022,
+          "inhibitory_weight_times_spikes": -19292,
+          "active_presynaptic_neurons": 95
+        },
+        "DNa02L": {
+          "excitatory_weight_times_spikes": 50227,
+          "inhibitory_weight_times_spikes": -33168,
+          "active_presynaptic_neurons": 136
+        },
+        "DNa02R": {
+          "excitatory_weight_times_spikes": 41934,
+          "inhibitory_weight_times_spikes": -52916,
+          "active_presynaptic_neurons": 124
+        }
+      }
+    }
+  },
+  "limitation": "Structural reachability and aggregate signed synapse-count times spikes do not imply threshold crossing; temporal order and conductance decay are not represented by this aggregate."
+}

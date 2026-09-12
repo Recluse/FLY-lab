@@ -1,0 +1,19 @@
+{
+  "stop": {
+    "A_successes": 0,
+    "B_successes": 4,
+    "denominator_each": 10,
+    "invalid_episodes": 0,
+    "valid_pairs": 10,
+    "difference_B_minus_A": 0.4,
+    "paired_episode_bootstrap_95": [
+      0.1,
+      0.7
+    ],
+    "paired_exact_conservative_95": [
+      -0.2554714290871056,
+      0.7718404062460018
+    ],
+    "inference_note": "invalid episodes block inference; degenerate bootstrap at boundary does not prove population equivalence"
+  }
+}

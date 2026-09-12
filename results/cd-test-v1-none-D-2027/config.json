@@ -1,0 +1,17 @@
+{
+  "mode": "body",
+  "label": "cd-test-v1-none-D-2027",
+  "seed": 2027,
+  "trials": 1,
+  "hz": 150,
+  "seconds": 1.005,
+  "terrain": "flat",
+  "command": "straight",
+  "video": false,
+  "policy": "D",
+  "brain_ticks": "/Users/recluse/Work/FLY-lab/results/c-brain-test-v1-left-2027/brain_ticks.json",
+  "readout_gain": 0.1,
+  "readout_deadband": 0.0,
+  "readout_ema": 0.0,
+  "scenario": "none"
+}

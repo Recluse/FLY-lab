@@ -1,0 +1,13 @@
+{
+  "scenario": "right",
+  "seed": 1004,
+  "network_seed": 11004,
+  "shuffle_seed": 4001,
+  "blocks": 67,
+  "spikes": 20126,
+  "active_neurons": 516,
+  "DN_left_total": 41,
+  "DN_right_total": 38,
+  "wall_s": 25.135575165972114,
+  "peak_rss_bytes": 1534623744
+}

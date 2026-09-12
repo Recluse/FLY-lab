@@ -1,0 +1,13 @@
+{
+  "mode": "body",
+  "label": "ab-calibration-stop-v2-stop-B-1005",
+  "seed": 1005,
+  "trials": 1,
+  "hz": 150,
+  "seconds": 3.0,
+  "terrain": "flat",
+  "command": "straight",
+  "video": false,
+  "policy": "B",
+  "scenario": "stop"
+}

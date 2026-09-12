@@ -1,0 +1,20 @@
+{
+  "status": "blocked",
+  "variants": [
+    "C",
+    "D",
+    "E"
+  ],
+  "reason": "Verified v783 taste inputs do not produce a bilateral descending spike readout; locomotion stop/speed mapping also unvalidated.",
+  "evidence": [
+    "brain783-left-0",
+    "brain783-left-1",
+    "brain783-left-300",
+    "brain783-right-0",
+    "brain783-zero-0",
+    "brain783-audit-0",
+    "brain783-pulse-left-0",
+    "brain783-pulse-right-0"
+  ],
+  "not_a_result": "No behavioral superiority/inferiority or feedback ablation was tested for the connectome."
+}

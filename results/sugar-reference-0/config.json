@@ -1,0 +1,28 @@
+{
+  "trials": 1,
+  "seeds": [
+    0
+  ],
+  "input_hz": 150,
+  "duration_s": 1,
+  "dt_s": 0.0001,
+  "parameters": {
+    "t_run": "1. s",
+    "n_run": "30",
+    "v_0": "-52. mV",
+    "v_rst": "-52. mV",
+    "v_th": "-45. mV",
+    "t_mbr": "20. ms",
+    "tau": "5. ms",
+    "t_rfc": "2.2 ms",
+    "t_dly": "1.8 ms",
+    "w_syn": "275. uV",
+    "r_poi": "150. Hz",
+    "r_poi2": "0. Hz",
+    "f_poi": "250",
+    "eqs": "\ndv/dt = (v_0 - v + g) / t_mbr : volt (unless refractory)\ndg/dt = -g / tau               : volt (unless refractory) \nrfc                            : second\n",
+    "eq_th": "v > v_th",
+    "eq_rst": "v = v_rst; w = 0; g = 0 * mV"
+  },
+  "mode": "upstream run_trial, notebook sugarR reaction"
+}

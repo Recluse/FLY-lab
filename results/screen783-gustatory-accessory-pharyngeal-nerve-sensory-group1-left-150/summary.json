@@ -1,0 +1,44 @@
+{
+  "materialization": 783,
+  "mode": "sensory783",
+  "seed": 0,
+  "input_side": "left",
+  "input_hz": 150.0,
+  "cell_class": "gustatory",
+  "cell_sub_class": "accessory_pharyngeal_nerve_sensory_group1",
+  "n_inputs": 17,
+  "duration_s": 1.0,
+  "output_hz": {
+    "DNa01L": 21.0,
+    "DNa01R": 1.0,
+    "DNa02L": 38.0,
+    "DNa02R": 1.0,
+    "MN9": 20.0
+  },
+  "output_states": {
+    "DNa01L": {
+      "max_voltage_mV": -45.0018523154236,
+      "min_voltage_mV": -68.19131498778715
+    },
+    "DNa01R": {
+      "max_voltage_mV": -45.006729338486466,
+      "min_voltage_mV": -84.7728264830645
+    },
+    "DNa02L": {
+      "max_voltage_mV": -45.00646632036387,
+      "min_voltage_mV": -62.96909827307458
+    },
+    "DNa02R": {
+      "max_voltage_mV": -45.01830924804502,
+      "min_voltage_mV": -100.38533379521229
+    },
+    "MN9": {
+      "max_voltage_mV": -45.01893533738509,
+      "min_voltage_mV": -65.51401216406046
+    }
+  },
+  "spikes": 248396,
+  "active_neurons": 8765,
+  "wall_s": 11.385479292366654,
+  "peak_rss_bytes": 1123958784
+}

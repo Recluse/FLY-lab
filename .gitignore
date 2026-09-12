@@ -1,0 +1,22 @@
+# environments and third-party sources (installed by hash, see README)
+.venv*/
+vendor/
+__pycache__/
+.pytest_cache/
+
+# personal launcher scripts, not part of the experiment
+tg-claude.sh
+tg-codex.sh
+
+# Russian working copies of the documentation; the published docs are English
+docs/ru/
+
+# large regenerable artefacts
+results/**/*.parquet
+results/*.parquet
+results/**/*.npz
+results/*.log
+results/**/*.log
+results/*/manifest.json
+results/sat-fly/
+paper/*.tmp*

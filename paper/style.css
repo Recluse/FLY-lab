@@ -1,0 +1,43 @@
+@page {
+  size: A4;
+  margin: 20mm 18mm 18mm 18mm;
+  @bottom-center { content: counter(page); font-family: "Georgia", serif; font-size: 9pt; color: #888; }
+}
+@page :first { @bottom-center { content: ""; } }
+
+html { font-family: "Georgia", "PT Serif", serif; font-size: 10.5pt; line-height: 1.52; color: #1a1a1a; }
+body { margin: 0; hyphens: auto; text-align: justify; }
+
+h1 { font-size: 21pt; line-height: 1.2; margin: 0 0 2mm 0; text-align: left; font-weight: normal; }
+h1 + .subtitle { font-size: 12pt; color: #555; margin: 0 0 8mm 0; font-style: italic; text-align: left; }
+h2 { font-size: 13pt; margin: 9mm 0 2.5mm 0; text-align: left; font-weight: normal; border-bottom: .6pt solid #d5d5d5; padding-bottom: 1.2mm; }
+h3 { font-size: 11pt; margin: 6mm 0 1.5mm 0; text-align: left; font-weight: bold; }
+p { margin: 0 0 3.2mm 0; orphans: 2; widows: 2; }
+p.first { text-indent: 0; }
+
+.meta { font-size: 9pt; color: #666; margin: 0 0 6mm 0; text-align: left; line-height: 1.4; }
+.abstract { background: #f6f7f9; border-left: 2.5pt solid #2c6fbb; padding: 4mm 5mm; margin: 0 0 7mm 0; font-size: 10pt; }
+.abstract p:last-child { margin-bottom: 0; }
+
+figure { margin: 5mm 0 6mm 0; page-break-inside: avoid; text-align: center; }
+figure img { max-width: 100%; }
+figcaption { font-size: 8.5pt; color: #555; text-align: left; margin-top: 1.5mm; line-height: 1.4; }
+figcaption b { color: #1a1a1a; }
+
+table { border-collapse: collapse; width: 100%; font-size: 9pt; margin: 3mm 0 5mm 0; page-break-inside: avoid; }
+th, td { border-bottom: .5pt solid #ddd; padding: 1.6mm 2mm; text-align: right; }
+th:first-child, td:first-child { text-align: left; }
+thead th { border-bottom: .9pt solid #999; font-weight: normal; color: #333; }
+tbody tr:last-child td { border-bottom: .9pt solid #999; }
+td.num { font-variant-numeric: tabular-nums; }
+.tcap { font-size: 8.5pt; color: #555; text-align: left; margin: -3mm 0 6mm 0; line-height: 1.4; }
+
+blockquote { margin: 4mm 0 4mm 6mm; padding-left: 4mm; border-left: 2pt solid #e0e0e0; color: #444; font-style: italic; }
+code { font-family: "Menlo", monospace; font-size: 8.6pt; background: #f3f3f3; padding: 0 .6mm; }
+.small { font-size: 9pt; color: #555; }
+ul { margin: 0 0 3.2mm 0; padding-left: 6mm; }
+li { margin-bottom: 1.2mm; }
+a { color: #2c6fbb; text-decoration: none; }
+.pagebreak { page-break-before: always; }
+.nb { background: #fffaf2; border-left: 2.5pt solid #e08a1e; padding: 3.5mm 5mm; margin: 4mm 0 5mm 0; font-size: 9.6pt; }
+.nb p:last-child { margin-bottom: 0; }

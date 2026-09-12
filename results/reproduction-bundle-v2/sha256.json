@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-12",
+  "note": "snapshot after rounds C/D/E; SAT experiment code included as of this date",
+  "sha256": {
+    "pilot.py": "bc59117a47af0c4251b65e69f4b5b0ab7e5092cee2028d58e531fb9cb3bb6a6d",
+    "sat_fly.py": "a460da46b8e5e2701f72373e5c86ea2587b1cf49e72e52ac2ba1fa735d26b851",
+    "screen_analysis.py": "0fadaf9790ff46d1b45e8cb800e9090d4dda1637c7f61c8220dc873715ea6f22",
+    "sat_plot.py": "44f528ec7242f5d0a7ba4e69f0dcb1c4e9647f095418df6445f0282641558ab1",
+    "test_pilot.py": "1babbf63a1824d0fb67adc3d90ebd47c65d9a8207dc73d0225ba7a36f30501dc",
+    "experiment.py": "38ef40502792074eb8f3dffd68576275294cda81f4d78b218e94bf3944f80d84",
+    "brain_loop.py": "2ce4f0041e75cd730554af390fce93320390c7177740a9a739f5d36fb9e762b6",
+    "brain_probe.py": "28c9c9eb450724c18d8e7d6efcda8d5d2f4c4ce3fa3e0edf78bea1ffd9d95fce",
+    "requirements/brain.txt": "fd49d0dafb712c3bd0a83644915bec001e02a3235d523bdc3c73684dfc063ab1",
+    "requirements/body.txt": "8b2f03e821f1fa9bbf91af8c5fdff508ec0f55a8fc6b1c4cfe8bb93fee568c57",
+    "results/screen783-run.py": "59e7da498f80ab661246a4e50f76987f6f09f8c11ac7b7eb61cc4e97d927fb33",
+    "results/e-body-run.sh": "1e80aa45e89aa02bca8ed1e056bfc329d745acae950195c71505e829fdff5edc",
+    "results/sat-fly/run-queue.sh": "b4603a6f96453d5e3990ac061db781460ecbbdd78e9a8282981456c4b240cf97",
+    "results/c-brain-cal-v1-readout.json": "ab6f48b965be5b216833e22510c65074c13ff01f0bc1012c45dcd01b010c62de",
+    "results/brain-body-gate-v2.json": "c7fa0864ad0191e5897528a813d5b7607a4df8eff68da07a1b7b733785dfd6a8",
+    "results/shuffled-connectivity-4000.json": "796a3a70d00ec3854dcb699549d7dfd227ee9cbbc04d9821d598d6ec76b838ca"
+  }
+}

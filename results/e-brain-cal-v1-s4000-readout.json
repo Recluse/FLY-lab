@@ -1,0 +1,222 @@
+{
+  "brain_tag": "e-brain-cal-v1-s4000",
+  "rule": "max per-tick agreement with rule B on calibration seeds; ties: ema, deadband, gain ascending",
+  "grid": {
+    "gain": [
+      0.2,
+      0.1,
+      0.05,
+      0.025
+    ],
+    "deadband": [
+      0,
+      3,
+      6,
+      10
+    ],
+    "ema": [
+      0.0,
+      0.5
+    ]
+  },
+  "scores": [
+    {
+      "gain": 0.2,
+      "deadband": 0,
+      "ema": 0.0,
+      "agreement": 0.5840796019900497
+    },
+    {
+      "gain": 0.2,
+      "deadband": 0,
+      "ema": 0.5,
+      "agreement": 0.554228855721393
+    },
+    {
+      "gain": 0.2,
+      "deadband": 3,
+      "ema": 0.0,
+      "agreement": 0.5840796019900497
+    },
+    {
+      "gain": 0.2,
+      "deadband": 3,
+      "ema": 0.5,
+      "agreement": 0.5268656716417911
+    },
+    {
+      "gain": 0.2,
+      "deadband": 6,
+      "ema": 0.0,
+      "agreement": 0.5009950248756219
+    },
+    {
+      "gain": 0.2,
+      "deadband": 6,
+      "ema": 0.5,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.2,
+      "deadband": 10,
+      "ema": 0.0,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.2,
+      "deadband": 10,
+      "ema": 0.5,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.1,
+      "deadband": 0,
+      "ema": 0.0,
+      "agreement": 0.5159203980099503
+    },
+    {
+      "gain": 0.1,
+      "deadband": 0,
+      "ema": 0.5,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.1,
+      "deadband": 3,
+      "ema": 0.0,
+      "agreement": 0.5159203980099503
+    },
+    {
+      "gain": 0.1,
+      "deadband": 3,
+      "ema": 0.5,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.1,
+      "deadband": 6,
+      "ema": 0.0,
+      "agreement": 0.5009950248756219
+    },
+    {
+      "gain": 0.1,
+      "deadband": 6,
+      "ema": 0.5,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.1,
+      "deadband": 10,
+      "ema": 0.0,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.1,
+      "deadband": 10,
+      "ema": 0.5,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.05,
+      "deadband": 0,
+      "ema": 0.0,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.05,
+      "deadband": 0,
+      "ema": 0.5,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.05,
+      "deadband": 3,
+      "ema": 0.0,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.05,
+      "deadband": 3,
+      "ema": 0.5,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.05,
+      "deadband": 6,
+      "ema": 0.0,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.05,
+      "deadband": 6,
+      "ema": 0.5,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.05,
+      "deadband": 10,
+      "ema": 0.0,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.05,
+      "deadband": 10,
+      "ema": 0.5,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.025,
+      "deadband": 0,
+      "ema": 0.0,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.025,
+      "deadband": 0,
+      "ema": 0.5,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.025,
+      "deadband": 3,
+      "ema": 0.0,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.025,
+      "deadband": 3,
+      "ema": 0.5,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.025,
+      "deadband": 6,
+      "ema": 0.0,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.025,
+      "deadband": 6,
+      "ema": 0.5,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.025,
+      "deadband": 10,
+      "ema": 0.0,
+      "agreement": 0.4975124378109453
+    },
+    {
+      "gain": 0.025,
+      "deadband": 10,
+      "ema": 0.5,
+      "agreement": 0.4975124378109453
+    }
+  ],
+  "chosen": {
+    "gain": 0.2,
+    "deadband": 0,
+    "ema": 0.0,
+    "agreement": 0.5840796019900497
+  }
+}

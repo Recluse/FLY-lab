@@ -1,0 +1,2719 @@
+{
+  "split": "test",
+  "jobs": [
+    [
+      "none",
+      2000,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2000,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2001,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2001,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2002,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2002,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2003,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2003,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2004,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2004,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2005,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2005,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2006,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2006,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2007,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2007,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2008,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2008,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2009,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2009,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2010,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2010,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2011,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2011,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2012,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2012,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2013,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2013,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2014,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2014,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2015,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2015,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2016,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2016,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2017,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2017,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2018,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2018,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2019,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2019,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2020,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2020,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2021,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2021,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2022,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2022,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2023,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2023,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2024,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2024,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2025,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2025,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2026,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2026,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2027,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2027,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2028,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2028,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2029,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2029,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2000,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2000,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2001,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2001,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2002,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2002,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2003,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2003,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2004,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2004,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2005,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2005,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2006,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2006,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2007,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2007,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2008,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2008,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2009,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2009,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2010,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2010,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2011,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2011,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2012,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2012,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2013,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2013,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2014,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2014,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2015,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2015,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2016,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2016,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2017,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2017,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2018,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2018,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2019,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2019,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2020,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2020,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2021,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2021,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2022,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2022,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2023,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2023,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2024,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2024,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2025,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2025,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2026,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2026,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2027,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2027,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2028,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2028,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2029,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2029,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2000,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2000,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2001,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2001,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2002,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2002,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2003,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2003,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2004,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2004,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2005,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2005,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2006,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2006,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2007,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2007,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2008,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2008,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2009,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2009,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2010,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2010,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2011,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2011,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2012,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2012,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2013,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2013,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2014,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2014,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2015,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2015,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2016,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2016,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2017,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2017,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2018,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2018,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2019,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2019,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2020,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2020,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2021,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2021,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2022,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2022,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2023,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2023,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2024,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2024,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2025,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2025,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2026,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2026,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2027,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2027,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2028,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2028,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2029,
+      "C",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2029,
+      "D",
+      "cd-test-v1",
+      {
+        "brain_tag": "c-brain-test-v1",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ]
+  ],
+  "episode_s": {
+    "none": 1.005,
+    "left": 1.005,
+    "right": 1.005
+  },
+  "workers": 2,
+  "primary": {
+    "none": "no false command",
+    "left/right": "signed yaw change >0.2rad within 0.5s",
+    "stop": "speed<1mm/s for 0.15s before horizon"
+  },
+  "equivalence_margin_success": 0.05,
+  "bootstrap_seed": 81291,
+  "bootstrap_replicates": 10000
+}

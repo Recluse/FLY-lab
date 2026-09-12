@@ -1,0 +1,44 @@
+{
+  "materialization": 783,
+  "mode": "sensory783",
+  "seed": 0,
+  "input_side": "right",
+  "input_hz": 150.0,
+  "cell_class": "hygrosensory",
+  "cell_sub_class": "cooling",
+  "n_inputs": 7,
+  "duration_s": 1.0,
+  "output_hz": {
+    "DNa01L": 21.0,
+    "DNa01R": 7.0,
+    "DNa02L": 50.0,
+    "DNa02R": 0.0,
+    "MN9": 0.0
+  },
+  "output_states": {
+    "DNa01L": {
+      "max_voltage_mV": -45.00553753295581,
+      "min_voltage_mV": -67.45216352219677
+    },
+    "DNa01R": {
+      "max_voltage_mV": -45.009984036882805,
+      "min_voltage_mV": -71.91517634914402
+    },
+    "DNa02L": {
+      "max_voltage_mV": -45.005759334723926,
+      "min_voltage_mV": -70.56694469363006
+    },
+    "DNa02R": {
+      "max_voltage_mV": -47.37874940202316,
+      "min_voltage_mV": -102.1927819648751
+    },
+    "MN9": {
+      "max_voltage_mV": -51.9897967450577,
+      "min_voltage_mV": -55.86503928871504
+    }
+  },
+  "spikes": 457989,
+  "active_neurons": 8398,
+  "wall_s": 13.114335665944964,
+  "peak_rss_bytes": 3464052736
+}

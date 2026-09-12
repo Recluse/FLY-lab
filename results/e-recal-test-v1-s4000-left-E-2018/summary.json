@@ -1,0 +1,18 @@
+{
+  "seed": 2018,
+  "command": "straight",
+  "terrain": "flat",
+  "model_s": 1.005,
+  "wall_s": 55.49750616727397,
+  "model_to_wall": 0.01810892181300631,
+  "displacement_mm": [
+    10.13153076171875,
+    3.313448667526245,
+    -0.6057698726654053
+  ],
+  "yaw_change_rad": 0.7961294241249561,
+  "upright_fraction": 1.0,
+  "final_speed_mm_s": 2.8909149169921875,
+  "peak_rss_bytes": 654458880,
+  "gpu": "physics on CPU; graphics only for optional video"
+}

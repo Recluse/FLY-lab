@@ -1,0 +1,11 @@
+{
+  "mode": "body",
+  "label": "body-stop-0",
+  "seed": 0,
+  "trials": 1,
+  "hz": 150,
+  "seconds": 3.0,
+  "terrain": "flat",
+  "command": "stop",
+  "video": false
+}

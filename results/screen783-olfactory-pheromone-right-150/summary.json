@@ -1,0 +1,44 @@
+{
+  "materialization": 783,
+  "mode": "sensory783",
+  "seed": 0,
+  "input_side": "right",
+  "input_hz": 150.0,
+  "cell_class": "olfactory",
+  "cell_sub_class": "pheromone",
+  "n_inputs": 209,
+  "duration_s": 1.0,
+  "output_hz": {
+    "DNa01L": 19.0,
+    "DNa01R": 13.0,
+    "DNa02L": 48.0,
+    "DNa02R": 0.0,
+    "MN9": 0.0
+  },
+  "output_states": {
+    "DNa01L": {
+      "max_voltage_mV": -45.007722035872014,
+      "min_voltage_mV": -67.51585009860867
+    },
+    "DNa01R": {
+      "max_voltage_mV": -45.00480184072678,
+      "min_voltage_mV": -71.72122832874473
+    },
+    "DNa02L": {
+      "max_voltage_mV": -45.00155222735854,
+      "min_voltage_mV": -70.32629922664047
+    },
+    "DNa02R": {
+      "max_voltage_mV": -48.089013134789035,
+      "min_voltage_mV": -96.28560313639179
+    },
+    "MN9": {
+      "max_voltage_mV": -51.96299096061664,
+      "min_voltage_mV": -56.24732100738633
+    }
+  },
+  "spikes": 506633,
+  "active_neurons": 8685,
+  "wall_s": 246.69158683298156,
+  "peak_rss_bytes": 1189298176
+}

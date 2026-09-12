@@ -1,0 +1,1369 @@
+{
+  "split": "test",
+  "jobs": [
+    [
+      "none",
+      2000,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2001,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2002,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2003,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2004,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2005,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2006,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2007,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2008,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2009,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2010,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2011,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2012,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2013,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2014,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2015,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2016,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2017,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2018,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2019,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2020,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2021,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2022,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2023,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2024,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2025,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2026,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2027,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2028,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "none",
+      2029,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2000,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2001,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2002,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2003,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2004,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2005,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2006,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2007,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2008,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2009,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2010,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2011,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2012,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2013,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2014,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2015,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2016,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2017,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2018,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2019,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2020,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2021,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2022,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2023,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2024,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2025,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2026,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2027,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2028,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "left",
+      2029,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2000,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2001,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2002,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2003,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2004,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2005,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2006,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2007,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2008,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2009,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2010,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2011,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2012,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2013,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2014,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2015,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2016,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2017,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2018,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2019,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2020,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2021,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2022,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2023,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2024,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2025,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2026,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2027,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2028,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ],
+    [
+      "right",
+      2029,
+      "E",
+      "e-test-v1-s4001",
+      {
+        "brain_tag": "e-brain-test-v1-s4001",
+        "readout": {
+          "gain": 0.1,
+          "deadband": 0,
+          "ema": 0.0,
+          "agreement": 1.0
+        }
+      }
+    ]
+  ],
+  "episode_s": {
+    "none": 1.005,
+    "left": 1.005,
+    "right": 1.005
+  },
+  "workers": 2,
+  "primary": {
+    "none": "no false command",
+    "left/right": "signed yaw change >0.2rad within 0.5s",
+    "stop": "speed<1mm/s for 0.15s before horizon"
+  },
+  "equivalence_margin_success": 0.05,
+  "bootstrap_seed": 81291,
+  "bootstrap_replicates": 10000
+}

@@ -1,0 +1,44 @@
+{
+  "materialization": 783,
+  "mode": "sensory783",
+  "seed": 0,
+  "input_side": "left",
+  "input_hz": 150.0,
+  "cell_class": "visual",
+  "cell_sub_class": "DRA",
+  "n_inputs": 79,
+  "duration_s": 1.0,
+  "output_hz": {
+    "DNa01L": 0.0,
+    "DNa01R": 0.0,
+    "DNa02L": 0.0,
+    "DNa02R": 0.0,
+    "MN9": 0.0
+  },
+  "output_states": {
+    "DNa01L": {
+      "max_voltage_mV": -52.0,
+      "min_voltage_mV": -52.0
+    },
+    "DNa01R": {
+      "max_voltage_mV": -52.0,
+      "min_voltage_mV": -52.0
+    },
+    "DNa02L": {
+      "max_voltage_mV": -52.0,
+      "min_voltage_mV": -52.0
+    },
+    "DNa02R": {
+      "max_voltage_mV": -52.0,
+      "min_voltage_mV": -52.0
+    },
+    "MN9": {
+      "max_voltage_mV": -52.0,
+      "min_voltage_mV": -52.0
+    }
+  },
+  "spikes": 11726,
+  "active_neurons": 79,
+  "wall_s": 17.345325166359544,
+  "peak_rss_bytes": 1752449024
+}

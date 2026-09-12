@@ -1,0 +1,10 @@
+{
+  "mode": "whole vs 67 x 15ms",
+  "seed": 0,
+  "spike_indices_equal": true,
+  "spike_times_equal": true,
+  "potentials_equal": true,
+  "synaptic_state_equal": true,
+  "spikes": 13768,
+  "wall_s": 19.351037250366062
+}

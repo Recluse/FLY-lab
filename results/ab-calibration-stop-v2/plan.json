@@ -1,0 +1,137 @@
+{
+  "split": "calibration",
+  "jobs": [
+    [
+      "stop",
+      1000,
+      "A",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1000,
+      "B",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1001,
+      "A",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1001,
+      "B",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1002,
+      "A",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1002,
+      "B",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1003,
+      "A",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1003,
+      "B",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1004,
+      "A",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1004,
+      "B",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1005,
+      "A",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1005,
+      "B",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1006,
+      "A",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1006,
+      "B",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1007,
+      "A",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1007,
+      "B",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1008,
+      "A",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1008,
+      "B",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1009,
+      "A",
+      "ab-calibration-stop-v2"
+    ],
+    [
+      "stop",
+      1009,
+      "B",
+      "ab-calibration-stop-v2"
+    ]
+  ],
+  "episode_s": {
+    "stop": 3.0
+  },
+  "workers": 4,
+  "primary": {
+    "none": "no false command",
+    "left/right": "signed yaw change >0.2rad within 0.5s",
+    "stop": "speed<1mm/s for 0.15s before horizon"
+  },
+  "equivalence_margin_success": 0.05,
+  "bootstrap_seed": 81291,
+  "bootstrap_replicates": 10000
+}
