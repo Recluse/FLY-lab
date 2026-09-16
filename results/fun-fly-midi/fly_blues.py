@@ -9,9 +9,11 @@ steering a body around an arena.
 Because the rules do most of the work, the script also reports how often the
 fly's raw choice survived them. That number is the honest part.
 
-    python3 fly_blues.py            # writes fly_blues.mid
-    python3 fly_blues.py --check    # self-check only
+    python3 fly_blues.py             # writes fly_blues.mid
+    python3 fly_blues.py --shuffle   # the same numbers with their order destroyed
+    python3 fly_blues.py --check     # self-check only
 """
+import random
 import statistics as st
 import struct
 import sys
@@ -129,9 +131,15 @@ def drums(steps, events):
             events.append((at + EIGHTH - 2, 0x89, SNARE, 0))
 
 
-def build(out):
+def build(out, shuffle=False):
     ticks = read("left") + read("right")
     steps = list(windows(ticks, TICKS_PER_STEP))
+    if shuffle:
+        # Control arm: the same numbers, their order destroyed. Same
+        # distribution of pitches and loudness, no temporal structure. If this
+        # sounds as intentional as the real one, the fly's timing contributed
+        # nothing and the rules are doing all the work.
+        random.Random(0).shuffle(steps)
     bars = len(steps) // STEPS_PER_BAR
     steps = steps[:bars * STEPS_PER_BAR]
     names = list(SCALES)
@@ -181,5 +189,10 @@ def check():
 
 if __name__ == "__main__":
     check()
-    if "--check" not in sys.argv:
-        build(Path(__file__).resolve().parent / "fly_blues.mid")
+    here = Path(__file__).resolve().parent
+    if "--check" in sys.argv:
+        pass
+    elif "--shuffle" in sys.argv:
+        build(here / "fly_blues_shuffled.mid", shuffle=True)
+    else:
+        build(here / "fly_blues.mid")

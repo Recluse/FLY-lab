@@ -81,6 +81,26 @@ window against 93 on the left), the fly chose different scales for them —
 dorian and then minor pentatonic. It changes mode exactly when the stimulus
 changes side.
 
+## The control arm: the same numbers, shuffled in time
+
+It sounds like someone improvising, and the obvious question is whether that
+impression survives destroying the one thing a fly can contribute — the order
+of its own decisions. `python3 fly_blues.py --shuffle` permutes the 300 ms
+windows with a fixed seed and composes from them with identical rules: same
+pitch distribution, same loudness distribution, no temporal structure.
+
+The difference is audible and, better, countable. The real signal has a lag-one
+autocorrelation of 0.81 and moves 9.7 units between consecutive windows;
+shuffled, that autocorrelation is −0.03 and the average move is 22.4. The
+melodic-leap rule catches the difference: 3 notes clamped in the real piece
+against 56 in the shuffled one, and the fly's raw pitch survives in 75 per cent
+of notes against 37 per cent.
+
+So the phrasing is not an accident of the rules. What makes it sound like
+playing rather than noise is that the fly's activity is smooth in time — it
+holds a level, then moves — which is also, roughly, what a person does when
+improvising over a fixed progression.
+
 ## Changing the rules
 
 Everything is a constant at the top of `fly_blues.py`:
