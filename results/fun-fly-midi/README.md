@@ -5,7 +5,9 @@ spike recordings from the main experiment as a source of numbers and turns them
 into MIDI.
 
 Listen first: [`fly-blues.mp3`](fly-blues.mp3) — one minute, rendered in FL
-Studio from [`fly_blues.mid`](fly_blues.mid) with no editing of the notes.
+Studio from [`fly_blues.mid`](fly_blues.mid). The only change made there was the
+choice of instruments: Piano Dark, Slap Bass 2 and a jazz drum kit in place of
+the general-MIDI defaults. Not one note was moved.
 
 ## Where the notes come from
 
