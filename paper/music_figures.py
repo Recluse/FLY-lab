@@ -118,5 +118,62 @@ def main():
               f"{n:.0f} neurons active")
 
 
+def learning_curve():
+    """Second figure: does the fly get better at choosing chord tones as the run goes on?"""
+    import statistics as stx
+    arms = {"learn": ("connectome, plastic", GREEN), "frozen": ("connectome, frozen", BLUE),
+            "shuffled": ("shuffled connectome", GREY), "deaf": ("no odour input", RED)}
+    runs = {}
+    for path in sorted((ROOT / "results").glob("music-v2-*/steps.json")):
+        arm = path.parent.name.split("-")[2]
+        runs.setdefault(arm, []).append(json.loads(path.read_text()))
+    if not runs:
+        return
+    fig, ax = plt.subplots(figsize=(7.2, 3.9))
+    window = 48                                   # six bars
+    chance = []
+    for arm, (label, colour) in arms.items():
+        if arm not in runs:
+            continue
+        curves = []
+        for steps in runs[arm]:
+            hits = [1 if r["chord_tone"] else 0 for r in steps]
+            curves.append([stx.mean(hits[max(0, i - window):i + 1]) for i in range(len(hits))])
+        n = min(len(c) for c in curves)
+        mean = [stx.mean(c[i] for c in curves) for i in range(n)]
+        ax.plot(range(n), mean, color=colour, lw=1.8, label=f"{label} ({len(curves)} runs)")
+        if len(curves) > 1:
+            lo = [min(c[i] for c in curves) for i in range(n)]
+            hi = [max(c[i] for c in curves) for i in range(n)]
+            ax.fill_between(range(n), lo, hi, color=colour, alpha=.12, lw=0)
+    for steps in runs.get("learn", []):
+        chance.append(stx.mean(sum(1 for d in r["options"]) and
+                               sum(1 for d in r["options"] if SCALE[d] in CHORD(r["bar"])) / len(r["options"])
+                               for r in steps))
+    if chance:
+        ax.axhline(stx.mean(chance), color="#444", ls="--", lw=1)
+        ax.text(2, stx.mean(chance) + .012, "what a coin would score on the same offers", fontsize=7.5, color="#444")
+    ax.set_xlabel("decision (eight per bar, 36 bars)")
+    ax.set_ylabel(f"chord tones chosen, running mean of {window}")
+    ax.set_ylim(0, 1)
+    ax.legend(fontsize=7.5, frameon=False, loc="upper left")
+    ax.set_title("Learning to prefer notes that fit the chord", fontsize=10, loc="left")
+    ax.grid(alpha=.2)
+    fig.tight_layout()
+    fig.savefig(FIG / "music2-learning-en.png", bbox_inches="tight")
+    print("saved", FIG / "music2-learning-en.png")
+
+
+SCALE = (0, 2, 3, 5, 7, 9, 10)
+PROGRESSION = [0, 0, 0, 0, 5, 5, 0, 0, 7, 5, 0, 7]
+SEVENTH = (0, 4, 7, 10)
+
+
+def CHORD(bar):
+    root = PROGRESSION[bar % len(PROGRESSION)]
+    return {(root + t) % 12 for t in SEVENTH}
+
+
 if __name__ == "__main__":
     main()
+    learning_curve()

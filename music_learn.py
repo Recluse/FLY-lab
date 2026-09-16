@@ -162,7 +162,13 @@ def main(args):
             both.append({"degree": int(degree), "mbon": mbon_answer, "descending": dn_answer,
                          "kc_active": int((fresh[kc] > 0).sum())})
             active_kc[degree] = fresh[kc] > 0
-        picked = options[int(np.argmax(answers))]
+        # Ties are broken at random, not by taking the first candidate: with the input
+        # switched off every answer is zero, and argmax would always pick the lowest degree
+        # offered — which is the root of the scale and therefore a chord tone most bars. The
+        # deaf control in the first campaign scored 0.50 that way, above the coin rate, for
+        # exactly that reason.
+        best = np.flatnonzero(np.asarray(answers) == np.max(answers))
+        picked = options[int(choice_rng.choice(best))]
         pitch_class = SCALE[picked]
         hit = pitch_class in good
 

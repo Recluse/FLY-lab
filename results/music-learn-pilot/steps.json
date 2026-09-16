@@ -1,0 +1,498 @@
+[
+ {
+  "step": 0,
+  "bar": 0,
+  "beat": 0,
+  "options": [
+   1,
+   3
+  ],
+  "answers": [
+   58,
+   66
+  ],
+  "readouts": [
+   {
+    "degree": 1,
+    "mbon": 2,
+    "descending": 58,
+    "kc_active": 345
+   },
+   {
+    "degree": 3,
+    "mbon": 5,
+    "descending": 66,
+    "kc_active": 381
+   }
+  ],
+  "picked": 3,
+  "pitch_class": 5,
+  "chord_tone": false,
+  "kc_active": 381
+ },
+ {
+  "step": 1,
+  "bar": 0,
+  "beat": 1,
+  "options": [
+   4,
+   5
+  ],
+  "answers": [
+   69,
+   59
+  ],
+  "readouts": [
+   {
+    "degree": 4,
+    "mbon": -2,
+    "descending": 69,
+    "kc_active": 339
+   },
+   {
+    "degree": 5,
+    "mbon": -1,
+    "descending": 59,
+    "kc_active": 377
+   }
+  ],
+  "picked": 4,
+  "pitch_class": 7,
+  "chord_tone": true,
+  "kc_active": 339
+ },
+ {
+  "step": 2,
+  "bar": 0,
+  "beat": 2,
+  "options": [
+   3,
+   5
+  ],
+  "answers": [
+   69,
+   65
+  ],
+  "readouts": [
+   {
+    "degree": 3,
+    "mbon": -5,
+    "descending": 69,
+    "kc_active": 586
+   },
+   {
+    "degree": 5,
+    "mbon": -1,
+    "descending": 65,
+    "kc_active": 378
+   }
+  ],
+  "picked": 3,
+  "pitch_class": 5,
+  "chord_tone": false,
+  "kc_active": 586
+ },
+ {
+  "step": 3,
+  "bar": 0,
+  "beat": 3,
+  "options": [
+   0,
+   5
+  ],
+  "answers": [
+   62,
+   62
+  ],
+  "readouts": [
+   {
+    "degree": 0,
+    "mbon": -2,
+    "descending": 62,
+    "kc_active": 440
+   },
+   {
+    "degree": 5,
+    "mbon": -2,
+    "descending": 62,
+    "kc_active": 385
+   }
+  ],
+  "picked": 0,
+  "pitch_class": 0,
+  "chord_tone": true,
+  "kc_active": 440
+ },
+ {
+  "step": 4,
+  "bar": 0,
+  "beat": 4,
+  "options": [
+   2,
+   3
+  ],
+  "answers": [
+   67,
+   67
+  ],
+  "readouts": [
+   {
+    "degree": 2,
+    "mbon": 2,
+    "descending": 67,
+    "kc_active": 561
+   },
+   {
+    "degree": 3,
+    "mbon": 0,
+    "descending": 67,
+    "kc_active": 386
+   }
+  ],
+  "picked": 2,
+  "pitch_class": 3,
+  "chord_tone": false,
+  "kc_active": 561
+ },
+ {
+  "step": 5,
+  "bar": 0,
+  "beat": 5,
+  "options": [
+   3,
+   5
+  ],
+  "answers": [
+   69,
+   63
+  ],
+  "readouts": [
+   {
+    "degree": 3,
+    "mbon": 4,
+    "descending": 69,
+    "kc_active": 381
+   },
+   {
+    "degree": 5,
+    "mbon": -2,
+    "descending": 63,
+    "kc_active": 390
+   }
+  ],
+  "picked": 3,
+  "pitch_class": 5,
+  "chord_tone": false,
+  "kc_active": 381
+ },
+ {
+  "step": 6,
+  "bar": 0,
+  "beat": 6,
+  "options": [
+   3,
+   6
+  ],
+  "answers": [
+   63,
+   61
+  ],
+  "readouts": [
+   {
+    "degree": 3,
+    "mbon": 4,
+    "descending": 63,
+    "kc_active": 411
+   },
+   {
+    "degree": 6,
+    "mbon": 0,
+    "descending": 61,
+    "kc_active": 320
+   }
+  ],
+  "picked": 3,
+  "pitch_class": 5,
+  "chord_tone": false,
+  "kc_active": 411
+ },
+ {
+  "step": 7,
+  "bar": 0,
+  "beat": 7,
+  "options": [
+   2,
+   5
+  ],
+  "answers": [
+   67,
+   60
+  ],
+  "readouts": [
+   {
+    "degree": 2,
+    "mbon": 1,
+    "descending": 67,
+    "kc_active": 345
+   },
+   {
+    "degree": 5,
+    "mbon": -1,
+    "descending": 60,
+    "kc_active": 360
+   }
+  ],
+  "picked": 2,
+  "pitch_class": 3,
+  "chord_tone": false,
+  "kc_active": 345
+ },
+ {
+  "step": 8,
+  "bar": 1,
+  "beat": 0,
+  "options": [
+   4,
+   5
+  ],
+  "answers": [
+   70,
+   62
+  ],
+  "readouts": [
+   {
+    "degree": 4,
+    "mbon": 6,
+    "descending": 70,
+    "kc_active": 364
+   },
+   {
+    "degree": 5,
+    "mbon": -3,
+    "descending": 62,
+    "kc_active": 372
+   }
+  ],
+  "picked": 4,
+  "pitch_class": 7,
+  "chord_tone": true,
+  "kc_active": 364
+ },
+ {
+  "step": 9,
+  "bar": 1,
+  "beat": 1,
+  "options": [
+   0,
+   3
+  ],
+  "answers": [
+   63,
+   67
+  ],
+  "readouts": [
+   {
+    "degree": 0,
+    "mbon": -2,
+    "descending": 63,
+    "kc_active": 628
+   },
+   {
+    "degree": 3,
+    "mbon": 0,
+    "descending": 67,
+    "kc_active": 395
+   }
+  ],
+  "picked": 3,
+  "pitch_class": 5,
+  "chord_tone": false,
+  "kc_active": 395
+ },
+ {
+  "step": 10,
+  "bar": 1,
+  "beat": 2,
+  "options": [
+   0,
+   5
+  ],
+  "answers": [
+   63,
+   62
+  ],
+  "readouts": [
+   {
+    "degree": 0,
+    "mbon": 0,
+    "descending": 63,
+    "kc_active": 442
+   },
+   {
+    "degree": 5,
+    "mbon": 0,
+    "descending": 62,
+    "kc_active": 379
+   }
+  ],
+  "picked": 0,
+  "pitch_class": 0,
+  "chord_tone": true,
+  "kc_active": 442
+ },
+ {
+  "step": 11,
+  "bar": 1,
+  "beat": 3,
+  "options": [
+   3,
+   4
+  ],
+  "answers": [
+   75,
+   66
+  ],
+  "readouts": [
+   {
+    "degree": 3,
+    "mbon": 1,
+    "descending": 75,
+    "kc_active": 546
+   },
+   {
+    "degree": 4,
+    "mbon": 0,
+    "descending": 66,
+    "kc_active": 323
+   }
+  ],
+  "picked": 3,
+  "pitch_class": 5,
+  "chord_tone": false,
+  "kc_active": 546
+ },
+ {
+  "step": 12,
+  "bar": 1,
+  "beat": 4,
+  "options": [
+   1,
+   3
+  ],
+  "answers": [
+   68,
+   70
+  ],
+  "readouts": [
+   {
+    "degree": 1,
+    "mbon": 7,
+    "descending": 68,
+    "kc_active": 416
+   },
+   {
+    "degree": 3,
+    "mbon": 0,
+    "descending": 70,
+    "kc_active": 380
+   }
+  ],
+  "picked": 3,
+  "pitch_class": 5,
+  "chord_tone": false,
+  "kc_active": 380
+ },
+ {
+  "step": 13,
+  "bar": 1,
+  "beat": 5,
+  "options": [
+   0,
+   2
+  ],
+  "answers": [
+   67,
+   66
+  ],
+  "readouts": [
+   {
+    "degree": 0,
+    "mbon": 4,
+    "descending": 67,
+    "kc_active": 423
+   },
+   {
+    "degree": 2,
+    "mbon": 0,
+    "descending": 66,
+    "kc_active": 331
+   }
+  ],
+  "picked": 0,
+  "pitch_class": 0,
+  "chord_tone": true,
+  "kc_active": 423
+ },
+ {
+  "step": 14,
+  "bar": 1,
+  "beat": 6,
+  "options": [
+   2,
+   6
+  ],
+  "answers": [
+   66,
+   62
+  ],
+  "readouts": [
+   {
+    "degree": 2,
+    "mbon": -1,
+    "descending": 66,
+    "kc_active": 535
+   },
+   {
+    "degree": 6,
+    "mbon": 0,
+    "descending": 62,
+    "kc_active": 315
+   }
+  ],
+  "picked": 2,
+  "pitch_class": 3,
+  "chord_tone": false,
+  "kc_active": 535
+ },
+ {
+  "step": 15,
+  "bar": 1,
+  "beat": 7,
+  "options": [
+   1,
+   6
+  ],
+  "answers": [
+   72,
+   65
+  ],
+  "readouts": [
+   {
+    "degree": 1,
+    "mbon": 1,
+    "descending": 72,
+    "kc_active": 396
+   },
+   {
+    "degree": 6,
+    "mbon": 0,
+    "descending": 65,
+    "kc_active": 339
+   }
+  ],
+  "picked": 1,
+  "pitch_class": 2,
+  "chord_tone": false,
+  "kc_active": 396
+ }
+]
