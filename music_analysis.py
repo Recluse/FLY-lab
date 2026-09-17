@@ -88,6 +88,24 @@ def preference(steps, key="descending"):
     return out[:4]
 
 
+BLIND_FROM = 7005          # seeds 7002-7004 were watched while the experiment was being tuned
+
+
+def report_paired(label, diffs):
+    """Mean paired difference with a 95% t-interval — the whole point of running many seeds."""
+    from scipy import stats
+    n = len(diffs)
+    mean = st.mean(diffs)
+    if n < 2:
+        print(f"paired, plastic minus frozen, {label}: {mean:+.3f} (n={n}, no interval)")
+        return
+    sem = st.stdev(diffs) / n ** .5
+    half = stats.t.ppf(.975, n - 1) * sem
+    zero = "includes zero" if abs(mean) < half else "excludes zero"
+    print(f"paired, plastic minus frozen, {label}: {mean:+.3f} "
+          f"[{mean - half:+.3f}, {mean + half:+.3f}] over {n} seeds — {zero}")
+
+
 def main():
     prefix = sys.argv[1] if len(sys.argv) > 1 else "music-v2"
     data = runs(prefix)
@@ -110,9 +128,13 @@ def main():
 
     if "learn" in table and "frozen" in table:
         seeds = sorted(set(data["learn"]) & set(data["frozen"]))
-        diffs = [quarters(data["learn"][s][1])[2] - quarters(data["frozen"][s][1])[2] for s in seeds]
-        print(f"\npaired, plastic minus frozen, over {len(diffs)} seeds: "
-              f"{st.mean(diffs):+.3f} (per seed: {', '.join(f'{d:+.3f}' for d in diffs)})")
+        diffs = {s: quarters(data["learn"][s][1])[2] - quarters(data["frozen"][s][1])[2] for s in seeds}
+        print()
+        report_paired("all seeds", [diffs[s] for s in seeds])
+        blind = [diffs[s] for s in seeds if s >= BLIND_FROM]
+        if blind and len(blind) < len(diffs):
+            report_paired(f"blind seeds (>= {BLIND_FROM})", blind)
+        print("  per seed: " + ", ".join(f"{s}:{diffs[s]:+.3f}" for s in seeds))
     for arm in ARMS:
         if arm in table:
             gains = [l - f for f, l in zip(table[arm]["first"], table[arm]["last"])]

@@ -142,22 +142,29 @@ def learning_curve():
         n = min(len(c) for c in curves)
         mean = [stx.mean(c[i] for c in curves) for i in range(n)]
         ax.plot(range(n), mean, color=colour, lw=1.8, label=f"{label} ({len(curves)} runs)")
-        if len(curves) > 1:
-            lo = [min(c[i] for c in curves) for i in range(n)]
-            hi = [max(c[i] for c in curves) for i in range(n)]
-            ax.fill_between(range(n), lo, hi, color=colour, alpha=.12, lw=0)
+        if len(curves) > 2:
+            # standard error of the mean, not the min/max envelope: with fifteen runs the
+            # envelope is just the two unluckiest seeds and says nothing about the mean.
+            sem = [stx.stdev(c[i] for c in curves) / len(curves) ** .5 for i in range(n)]
+            ax.fill_between(range(n), [m - e for m, e in zip(mean, sem)],
+                            [m + e for m, e in zip(mean, sem)], color=colour, alpha=.15, lw=0)
     for steps in runs.get("learn", []):
         chance.append(stx.mean(sum(1 for d in r["options"]) and
                                sum(1 for d in r["options"] if SCALE[d] in CHORD(r["bar"])) / len(r["options"])
                                for r in steps))
     if chance:
         ax.axhline(stx.mean(chance), color="#444", ls="--", lw=1)
-        ax.text(2, stx.mean(chance) + .012, "what a coin would score on the same offers", fontsize=7.5, color="#444")
+        ax.text(n - 2, stx.mean(chance), "what a coin would score on the same offers",
+                fontsize=7.5, color="#444", ha="right", va="center",
+                bbox=dict(facecolor="white", edgecolor="none", pad=1.5, alpha=.85))
     ax.set_xlabel("decision (eight per bar, 36 bars)")
     ax.set_ylabel(f"chord tones chosen, running mean of {window}")
-    ax.set_ylim(0, 1)
+    ax.set_ylim(.15, .85)
     ax.legend(fontsize=7.5, frameon=False, loc="upper left")
-    ax.set_title("Learning to prefer notes that fit the chord", fontsize=10, loc="left")
+    ax.set_title("Fifteen seeds of teaching the fly which notes fit the chord", fontsize=10, loc="left")
+    ax.text(0, -.27, "Plastic and frozen sit on top of each other; the wiggles are shared because every arm is\n"
+                     "offered the same notes in the same order. Bands are one standard error of the mean.",
+            fontsize=7, color=GREY, transform=ax.transAxes)
     ax.grid(alpha=.2)
     fig.tight_layout()
     fig.savefig(FIG / "music2-learning-en.png", bbox_inches="tight")
